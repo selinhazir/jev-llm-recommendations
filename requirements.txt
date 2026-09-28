@@ -1,0 +1,2 @@
+# Sunum arayüzü için (Python 3.9 ile uyumlu sürüm)
+streamlit==1.50.0

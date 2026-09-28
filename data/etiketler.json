@@ -1,0 +1,4702 @@
+{
+  "1": {
+    "isim": "Ayasofya",
+    "girdi_hash": "da6d122ab773",
+    "model": "jev-1.13.0",
+    "input_tokens": 1748,
+    "output_tokens": 304,
+    "sure_sn": 0.395,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_var",
+        "confidence": 0.61,
+        "olasiliklar": {
+          "engel_var": 0.74,
+          "engel_yok": 0.0,
+          "bilgi_yok": 0.26
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 0.63,
+        "olasiliklar": {
+          "engel_var": 0.25,
+          "engel_yok": 0.0,
+          "bilgi_yok": 0.75
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.65,
+      "evcil_hayvan": 0.91
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.97,
+      "gastronomi": 0.08,
+      "doga_macera": 0.08,
+      "balayi": 0.45,
+      "ergen_cocuklu_aile": 0.64,
+      "is_seyahati": 0.43,
+      "yalniz_gezgin": 0.62
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.83,
+        "sosyal": 0.41
+      }
+    }
+  },
+  "2": {
+    "isim": "Sultanahmet Camii (Mavi Cami)",
+    "girdi_hash": "a005c00fa3c0",
+    "model": "jev-1.13.0",
+    "input_tokens": 1744,
+    "output_tokens": 307,
+    "sure_sn": 0.479,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_yok",
+        "confidence": 0.94,
+        "olasiliklar": {
+          "engel_yok": 0.96,
+          "engel_var": 0.03,
+          "bilgi_yok": 0.01
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_yok",
+        "confidence": 0.79,
+        "olasiliklar": {
+          "engel_yok": 0.86,
+          "engel_var": 0.05,
+          "bilgi_yok": 0.09
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.22,
+      "evcil_hayvan": 0.9
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.96,
+      "gastronomi": 0.06,
+      "doga_macera": 0.1,
+      "balayi": 0.53,
+      "ergen_cocuklu_aile": 0.53,
+      "is_seyahati": 0.69,
+      "yalniz_gezgin": 0.55
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.89,
+        "sosyal": 0.21
+      }
+    }
+  },
+  "3": {
+    "isim": "Topkapı Sarayı",
+    "girdi_hash": "133a3e789d0f",
+    "model": "jev-1.13.0",
+    "input_tokens": 1753,
+    "output_tokens": 305,
+    "sure_sn": 0.461,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_var",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 1.0,
+          "engel_yok": 0.0,
+          "bilgi_yok": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_var",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "engel_var": 1.0,
+          "bilgi_yok": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.78,
+      "evcil_hayvan": 0.89
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.97,
+      "gastronomi": 0.18,
+      "doga_macera": 0.18,
+      "balayi": 0.64,
+      "ergen_cocuklu_aile": 0.65,
+      "is_seyahati": 0.2,
+      "yalniz_gezgin": 0.565
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.88,
+        "sosyal": 0.25
+      }
+    }
+  },
+  "12": {
+    "isim": "Rahmi M. Koç Müzesi",
+    "girdi_hash": "0e34c122f8fe",
+    "model": "jev-1.13.0",
+    "input_tokens": 1747,
+    "output_tokens": 307,
+    "sure_sn": 0.393,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_yok",
+        "confidence": 0.83,
+        "olasiliklar": {
+          "engel_var": 0.01,
+          "engel_yok": 0.89,
+          "bilgi_yok": 0.1
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_yok",
+        "confidence": 0.8,
+        "olasiliklar": {
+          "engel_var": 0.01,
+          "engel_yok": 0.86,
+          "bilgi_yok": 0.13
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.17,
+      "evcil_hayvan": 0.85
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.85,
+      "gastronomi": 0.2,
+      "doga_macera": 0.11,
+      "balayi": 0.34,
+      "ergen_cocuklu_aile": 0.89,
+      "is_seyahati": 0.46,
+      "yalniz_gezgin": 0.6
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.88,
+        "sosyal": 0.32
+      }
+    }
+  },
+  "33": {
+    "isim": "Caddebostan Sahili",
+    "girdi_hash": "598f303e16d5",
+    "model": "jev-1.13.0",
+    "input_tokens": 1739,
+    "output_tokens": 307,
+    "sure_sn": 0.398,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_yok",
+        "confidence": 0.88,
+        "olasiliklar": {
+          "engel_yok": 0.92,
+          "bilgi_yok": 0.01,
+          "engel_var": 0.07
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_yok",
+        "confidence": 0.95,
+        "olasiliklar": {
+          "engel_yok": 0.97,
+          "engel_var": 0.0,
+          "bilgi_yok": 0.03
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.1,
+      "evcil_hayvan": 0.06
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.22,
+      "gastronomi": 0.19,
+      "doga_macera": 0.73,
+      "balayi": 0.4,
+      "ergen_cocuklu_aile": 0.68,
+      "is_seyahati": 0.33,
+      "yalniz_gezgin": 0.735
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.88,
+        "sosyal": 0.59
+      }
+    }
+  },
+  "51": {
+    "isim": "Çiya Sofrası",
+    "girdi_hash": "14e664026acf",
+    "model": "jev-1.13.0",
+    "input_tokens": 1734,
+    "output_tokens": 304,
+    "sure_sn": 0.383,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_var",
+        "confidence": 0.66,
+        "olasiliklar": {
+          "engel_var": 0.77,
+          "engel_yok": 0.0,
+          "bilgi_yok": 0.23
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 0.83,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "engel_var": 0.11,
+          "bilgi_yok": 0.89
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.43,
+      "evcil_hayvan": 0.83
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.83,
+      "gastronomi": 0.93,
+      "doga_macera": 0.12,
+      "balayi": 0.18,
+      "ergen_cocuklu_aile": 0.47,
+      "is_seyahati": 0.39,
+      "yalniz_gezgin": 0.72
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.78,
+        "sosyal": 0.66
+      }
+    }
+  },
+  "68": {
+    "isim": "Kronotrop",
+    "girdi_hash": "3b40f6226001",
+    "model": "jev-1.13.0",
+    "input_tokens": 1729,
+    "output_tokens": 303,
+    "sure_sn": 0.42,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 0.0,
+          "engel_yok": 0.0,
+          "bilgi_yok": 1.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 0.0,
+          "engel_yok": 0.0,
+          "bilgi_yok": 1.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.16,
+      "evcil_hayvan": 0.05
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.26,
+      "gastronomi": 0.25,
+      "doga_macera": 0.21,
+      "balayi": 0.39,
+      "ergen_cocuklu_aile": 0.29,
+      "is_seyahati": 0.68,
+      "yalniz_gezgin": 0.5900000000000001
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.9,
+        "sosyal": 0.28
+      }
+    }
+  },
+  "83": {
+    "isim": "Kadife Sokak (Barlar Sokağı)",
+    "girdi_hash": "1eae69a7852b",
+    "model": "jev-1.13.0",
+    "input_tokens": 1742,
+    "output_tokens": 304,
+    "sure_sn": 0.489,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_var",
+        "confidence": 0.76,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "engel_var": 0.84,
+          "bilgi_yok": 0.16
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 0.97,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "engel_var": 0.02,
+          "bilgi_yok": 0.98
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.95,
+      "evcil_hayvan": 0.39
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.2,
+      "gastronomi": 0.13,
+      "doga_macera": 0.08,
+      "balayi": 0.12,
+      "ergen_cocuklu_aile": 0.27,
+      "is_seyahati": 0.34,
+      "yalniz_gezgin": 0.775
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.65,
+        "sosyal": 0.9
+      }
+    }
+  },
+  "13": {
+    "isim": "İstanbul Modern",
+    "girdi_hash": "de96853b57cf",
+    "model": "jev-1.13.0",
+    "input_tokens": 1732,
+    "output_tokens": 307,
+    "sure_sn": 0.494,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "bilgi_yok": 0.0,
+          "engel_yok": 1.0,
+          "engel_var": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "bilgi_yok": 0.0,
+          "engel_yok": 1.0,
+          "engel_var": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.22,
+      "evcil_hayvan": 0.86
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.95,
+      "gastronomi": 0.35,
+      "doga_macera": 0.12,
+      "balayi": 0.75,
+      "ergen_cocuklu_aile": 0.6,
+      "is_seyahati": 0.7,
+      "yalniz_gezgin": 0.64
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.89,
+        "sosyal": 0.39
+      }
+    }
+  },
+  "4": {
+    "isim": "Yerebatan Sarnıcı",
+    "girdi_hash": "289a2798cf1c",
+    "model": "jev-1.13.0",
+    "input_tokens": 1748,
+    "output_tokens": 305,
+    "sure_sn": 0.412,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_var",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 1.0,
+          "bilgi_yok": 0.0,
+          "engel_yok": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_var",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 1.0,
+          "bilgi_yok": 0.0,
+          "engel_yok": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.85,
+      "evcil_hayvan": 0.78
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.95,
+      "gastronomi": 0.06,
+      "doga_macera": 0.13,
+      "balayi": 0.6,
+      "ergen_cocuklu_aile": 0.66,
+      "is_seyahati": 0.59,
+      "yalniz_gezgin": 0.485
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.75,
+        "sosyal": 0.22
+      }
+    }
+  },
+  "5": {
+    "isim": "İstanbul Arkeoloji Müzeleri",
+    "girdi_hash": "38e20ebb43aa",
+    "model": "jev-1.13.0",
+    "input_tokens": 1743,
+    "output_tokens": 303,
+    "sure_sn": 0.452,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 0.99,
+        "olasiliklar": {
+          "engel_var": 0.0,
+          "bilgi_yok": 1.0,
+          "engel_yok": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 0.0,
+          "bilgi_yok": 1.0,
+          "engel_yok": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.35,
+      "evcil_hayvan": 0.9
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.96,
+      "gastronomi": 0.05,
+      "doga_macera": 0.09,
+      "balayi": 0.64,
+      "ergen_cocuklu_aile": 0.44,
+      "is_seyahati": 0.54,
+      "yalniz_gezgin": 0.52
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.89,
+        "sosyal": 0.15
+      }
+    }
+  },
+  "6": {
+    "isim": "Kapalıçarşı",
+    "girdi_hash": "b3c8e151279f",
+    "model": "jev-1.13.0",
+    "input_tokens": 1748,
+    "output_tokens": 305,
+    "sure_sn": 0.399,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_var",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "engel_var": 1.0,
+          "bilgi_yok": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_var",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "engel_var": 1.0,
+          "bilgi_yok": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.75,
+      "evcil_hayvan": 0.59
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.92,
+      "gastronomi": 0.27,
+      "doga_macera": 0.08,
+      "balayi": 0.26,
+      "ergen_cocuklu_aile": 0.68,
+      "is_seyahati": 0.37,
+      "yalniz_gezgin": 0.71
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.69,
+        "sosyal": 0.73
+      }
+    }
+  },
+  "7": {
+    "isim": "Mısır Çarşısı",
+    "girdi_hash": "e6642fa880b6",
+    "model": "jev-1.13.0",
+    "input_tokens": 1751,
+    "output_tokens": 305,
+    "sure_sn": 0.441,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_var",
+        "confidence": 0.99,
+        "olasiliklar": {
+          "engel_var": 1.0,
+          "engel_yok": 0.0,
+          "bilgi_yok": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_var",
+        "confidence": 0.8,
+        "olasiliklar": {
+          "engel_var": 0.87,
+          "engel_yok": 0.12,
+          "bilgi_yok": 0.01
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.45,
+      "evcil_hayvan": 0.55
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.88,
+      "gastronomi": 0.84,
+      "doga_macera": 0.1,
+      "balayi": 0.28,
+      "ergen_cocuklu_aile": 0.75,
+      "is_seyahati": 0.44,
+      "yalniz_gezgin": 0.725
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.76,
+        "sosyal": 0.69
+      }
+    }
+  },
+  "8": {
+    "isim": "Süleymaniye Camii",
+    "girdi_hash": "d783b57b89a8",
+    "model": "jev-1.13.0",
+    "input_tokens": 1737,
+    "output_tokens": 305,
+    "sure_sn": 0.392,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_var",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "engel_var": 1.0,
+          "bilgi_yok": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_var",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "engel_var": 1.0,
+          "bilgi_yok": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.69,
+      "evcil_hayvan": 0.89
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.96,
+      "gastronomi": 0.11,
+      "doga_macera": 0.35,
+      "balayi": 0.78,
+      "ergen_cocuklu_aile": 0.49,
+      "is_seyahati": 0.47,
+      "yalniz_gezgin": 0.525
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.89,
+        "sosyal": 0.16
+      }
+    }
+  },
+  "9": {
+    "isim": "Galata Kulesi",
+    "girdi_hash": "6255ddeefce3",
+    "model": "jev-1.13.0",
+    "input_tokens": 1747,
+    "output_tokens": 305,
+    "sure_sn": 0.438,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_var",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 1.0,
+          "bilgi_yok": 0.0,
+          "engel_yok": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_var",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 1.0,
+          "bilgi_yok": 0.0,
+          "engel_yok": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.76,
+      "evcil_hayvan": 0.61
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.89,
+      "gastronomi": 0.1,
+      "doga_macera": 0.21,
+      "balayi": 0.56,
+      "ergen_cocuklu_aile": 0.75,
+      "is_seyahati": 0.47,
+      "yalniz_gezgin": 0.62
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.86,
+        "sosyal": 0.38
+      }
+    }
+  },
+  "10": {
+    "isim": "Dolmabahçe Sarayı",
+    "girdi_hash": "d70d7fcdee7a",
+    "model": "jev-1.13.0",
+    "input_tokens": 1753,
+    "output_tokens": 305,
+    "sure_sn": 0.434,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_yok",
+        "confidence": 0.54,
+        "olasiliklar": {
+          "engel_var": 0.05,
+          "engel_yok": 0.7,
+          "bilgi_yok": 0.25
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 0.23,
+        "olasiliklar": {
+          "engel_var": 0.05,
+          "engel_yok": 0.46,
+          "bilgi_yok": 0.49
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.48,
+      "evcil_hayvan": 0.9
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.96,
+      "gastronomi": 0.13,
+      "doga_macera": 0.13,
+      "balayi": 0.58,
+      "ergen_cocuklu_aile": 0.38,
+      "is_seyahati": 0.44,
+      "yalniz_gezgin": 0.525
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.85,
+        "sosyal": 0.2
+      }
+    }
+  },
+  "11": {
+    "isim": "Kariye Camii (Khora)",
+    "girdi_hash": "a46a7e2e24e4",
+    "model": "jev-1.13.0",
+    "input_tokens": 1743,
+    "output_tokens": 305,
+    "sure_sn": 0.468,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_var",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "engel_var": 1.0,
+          "bilgi_yok": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_var",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "engel_var": 1.0,
+          "bilgi_yok": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.76,
+      "evcil_hayvan": 0.91
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.95,
+      "gastronomi": 0.08,
+      "doga_macera": 0.07,
+      "balayi": 0.55,
+      "ergen_cocuklu_aile": 0.42,
+      "is_seyahati": 0.51,
+      "yalniz_gezgin": 0.485
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.79,
+        "sosyal": 0.18
+      }
+    }
+  },
+  "14": {
+    "isim": "Pera Müzesi",
+    "girdi_hash": "8d22f12b29a9",
+    "model": "jev-1.13.0",
+    "input_tokens": 1731,
+    "output_tokens": 307,
+    "sure_sn": 0.491,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_yok": 1.0,
+          "bilgi_yok": 0.0,
+          "engel_var": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_yok": 1.0,
+          "bilgi_yok": 0.0,
+          "engel_var": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.18,
+      "evcil_hayvan": 0.9
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.93,
+      "gastronomi": 0.07,
+      "doga_macera": 0.08,
+      "balayi": 0.65,
+      "ergen_cocuklu_aile": 0.39,
+      "is_seyahati": 0.7,
+      "yalniz_gezgin": 0.52
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.89,
+        "sosyal": 0.15
+      }
+    }
+  },
+  "15": {
+    "isim": "Masumiyet Müzesi",
+    "girdi_hash": "46e28c3b54ab",
+    "model": "jev-1.13.0",
+    "input_tokens": 1735,
+    "output_tokens": 305,
+    "sure_sn": 0.599,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_var",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "bilgi_yok": 0.0,
+          "engel_yok": 0.0,
+          "engel_var": 1.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_var",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "bilgi_yok": 0.0,
+          "engel_yok": 0.0,
+          "engel_var": 1.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.84,
+      "evcil_hayvan": 0.86
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.92,
+      "gastronomi": 0.1,
+      "doga_macera": 0.08,
+      "balayi": 0.77,
+      "ergen_cocuklu_aile": 0.29,
+      "is_seyahati": 0.54,
+      "yalniz_gezgin": 0.47
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.84,
+        "sosyal": 0.1
+      }
+    }
+  },
+  "16": {
+    "isim": "Türk ve İslam Eserleri Müzesi",
+    "girdi_hash": "70b1333acb78",
+    "model": "jev-1.13.0",
+    "input_tokens": 1741,
+    "output_tokens": 305,
+    "sure_sn": 0.379,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_var",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "engel_var": 1.0,
+          "bilgi_yok": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_var",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "bilgi_yok": 0.0,
+          "engel_var": 1.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.8,
+      "evcil_hayvan": 0.88
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.93,
+      "gastronomi": 0.05,
+      "doga_macera": 0.07,
+      "balayi": 0.62,
+      "ergen_cocuklu_aile": 0.35,
+      "is_seyahati": 0.57,
+      "yalniz_gezgin": 0.505
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.86,
+        "sosyal": 0.15
+      }
+    }
+  },
+  "17": {
+    "isim": "Rumeli Hisarı",
+    "girdi_hash": "d09b5852b764",
+    "model": "jev-1.13.0",
+    "input_tokens": 1739,
+    "output_tokens": 305,
+    "sure_sn": 0.384,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_var",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 1.0,
+          "bilgi_yok": 0.0,
+          "engel_yok": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_var",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 1.0,
+          "bilgi_yok": 0.0,
+          "engel_yok": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.93,
+      "evcil_hayvan": 0.48
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.94,
+      "gastronomi": 0.12,
+      "doga_macera": 0.6,
+      "balayi": 0.68,
+      "ergen_cocuklu_aile": 0.65,
+      "is_seyahati": 0.41,
+      "yalniz_gezgin": 0.505
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.75,
+        "sosyal": 0.26
+      }
+    }
+  },
+  "18": {
+    "isim": "Beylerbeyi Sarayı",
+    "girdi_hash": "6f26f55d3c08",
+    "model": "jev-1.13.0",
+    "input_tokens": 1737,
+    "output_tokens": 303,
+    "sure_sn": 0.42,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 0.99,
+        "olasiliklar": {
+          "engel_var": 0.0,
+          "bilgi_yok": 1.0,
+          "engel_yok": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 0.0,
+          "bilgi_yok": 1.0,
+          "engel_yok": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.38,
+      "evcil_hayvan": 0.85
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.94,
+      "gastronomi": 0.28,
+      "doga_macera": 0.31,
+      "balayi": 0.84,
+      "ergen_cocuklu_aile": 0.59,
+      "is_seyahati": 0.46,
+      "yalniz_gezgin": 0.58
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.86,
+        "sosyal": 0.3
+      }
+    }
+  },
+  "19": {
+    "isim": "Kız Kulesi",
+    "girdi_hash": "45ea53da3265",
+    "model": "jev-1.13.0",
+    "input_tokens": 1745,
+    "output_tokens": 305,
+    "sure_sn": 0.496,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_var",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "engel_var": 1.0,
+          "bilgi_yok": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_var",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "engel_var": 1.0,
+          "bilgi_yok": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.84,
+      "evcil_hayvan": 0.63
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.87,
+      "gastronomi": 0.21,
+      "doga_macera": 0.52,
+      "balayi": 0.92,
+      "ergen_cocuklu_aile": 0.7,
+      "is_seyahati": 0.39,
+      "yalniz_gezgin": 0.56
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.77,
+        "sosyal": 0.35
+      }
+    }
+  },
+  "20": {
+    "isim": "Büyük Çamlıca Tepesi",
+    "girdi_hash": "1cd4583d079f",
+    "model": "jev-1.13.0",
+    "input_tokens": 1743,
+    "output_tokens": 303,
+    "sure_sn": 0.38,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 0.38,
+        "olasiliklar": {
+          "bilgi_yok": 0.59,
+          "engel_yok": 0.39,
+          "engel_var": 0.02
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 0.91,
+        "olasiliklar": {
+          "bilgi_yok": 0.94,
+          "engel_yok": 0.04,
+          "engel_var": 0.02
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.19,
+      "evcil_hayvan": 0.17
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.38,
+      "gastronomi": 0.28,
+      "doga_macera": 0.78,
+      "balayi": 0.72,
+      "ergen_cocuklu_aile": 0.75,
+      "is_seyahati": 0.46,
+      "yalniz_gezgin": 0.675
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.86,
+        "sosyal": 0.49
+      }
+    }
+  },
+  "21": {
+    "isim": "Pierre Loti Tepesi",
+    "girdi_hash": "9a7781f92e16",
+    "model": "jev-1.13.0",
+    "input_tokens": 1739,
+    "output_tokens": 305,
+    "sure_sn": 0.501,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_var",
+        "confidence": 0.75,
+        "olasiliklar": {
+          "engel_yok": 0.07,
+          "bilgi_yok": 0.09,
+          "engel_var": 0.84
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_var",
+        "confidence": 0.42,
+        "olasiliklar": {
+          "engel_yok": 0.02,
+          "bilgi_yok": 0.37,
+          "engel_var": 0.61
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.62,
+      "evcil_hayvan": 0.5
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.87,
+      "gastronomi": 0.36,
+      "doga_macera": 0.56,
+      "balayi": 0.75,
+      "ergen_cocuklu_aile": 0.68,
+      "is_seyahati": 0.54,
+      "yalniz_gezgin": 0.7
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.8,
+        "sosyal": 0.6
+      }
+    }
+  },
+  "22": {
+    "isim": "Eyüp Sultan Camii",
+    "girdi_hash": "1429412b3832",
+    "model": "jev-1.13.0",
+    "input_tokens": 1728,
+    "output_tokens": 304,
+    "sure_sn": 0.378,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_var",
+        "confidence": 0.75,
+        "olasiliklar": {
+          "engel_var": 0.84,
+          "bilgi_yok": 0.16,
+          "engel_yok": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "bilgi_yok": 1.0,
+          "engel_var": 0.0,
+          "engel_yok": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.42,
+      "evcil_hayvan": 0.93
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.9,
+      "gastronomi": 0.09,
+      "doga_macera": 0.1,
+      "balayi": 0.21,
+      "ergen_cocuklu_aile": 0.35,
+      "is_seyahati": 0.25,
+      "yalniz_gezgin": 0.57
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.85,
+        "sosyal": 0.29
+      }
+    }
+  },
+  "23": {
+    "isim": "Miniatürk",
+    "girdi_hash": "b038219bc655",
+    "model": "jev-1.13.0",
+    "input_tokens": 1727,
+    "output_tokens": 307,
+    "sure_sn": 0.412,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_yok",
+        "confidence": 0.94,
+        "olasiliklar": {
+          "engel_var": 0.03,
+          "bilgi_yok": 0.01,
+          "engel_yok": 0.96
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_yok",
+        "confidence": 0.96,
+        "olasiliklar": {
+          "engel_var": 0.0,
+          "bilgi_yok": 0.02,
+          "engel_yok": 0.98
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.09,
+      "evcil_hayvan": 0.37
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.87,
+      "gastronomi": 0.15,
+      "doga_macera": 0.32,
+      "balayi": 0.45,
+      "ergen_cocuklu_aile": 0.57,
+      "is_seyahati": 0.42,
+      "yalniz_gezgin": 0.61
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.88,
+        "sosyal": 0.34
+      }
+    }
+  },
+  "24": {
+    "isim": "İstanbul Akvaryum",
+    "girdi_hash": "1bbee453fb62",
+    "model": "jev-1.13.0",
+    "input_tokens": 1738,
+    "output_tokens": 307,
+    "sure_sn": 0.517,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_yok",
+        "confidence": 0.99,
+        "olasiliklar": {
+          "bilgi_yok": 0.0,
+          "engel_var": 0.0,
+          "engel_yok": 1.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "bilgi_yok": 0.0,
+          "engel_var": 0.0,
+          "engel_yok": 1.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.13,
+      "evcil_hayvan": 0.84
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.19,
+      "gastronomi": 0.1,
+      "doga_macera": 0.23,
+      "balayi": 0.48,
+      "ergen_cocuklu_aile": 0.7,
+      "is_seyahati": 0.13,
+      "yalniz_gezgin": 0.575
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.84,
+        "sosyal": 0.31
+      }
+    }
+  },
+  "25": {
+    "isim": "SEA LIFE İstanbul",
+    "girdi_hash": "cfb0cdcf5d11",
+    "model": "jev-1.13.0",
+    "input_tokens": 1729,
+    "output_tokens": 307,
+    "sure_sn": 0.471,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_yok": 1.0,
+          "engel_var": 0.0,
+          "bilgi_yok": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_yok": 1.0,
+          "engel_var": 0.0,
+          "bilgi_yok": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.1,
+      "evcil_hayvan": 0.78
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.19,
+      "gastronomi": 0.1,
+      "doga_macera": 0.21,
+      "balayi": 0.5,
+      "ergen_cocuklu_aile": 0.77,
+      "is_seyahati": 0.66,
+      "yalniz_gezgin": 0.605
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.89,
+        "sosyal": 0.32
+      }
+    }
+  },
+  "26": {
+    "isim": "LEGOLAND Discovery Centre",
+    "girdi_hash": "1f2c5997c82f",
+    "model": "jev-1.13.0",
+    "input_tokens": 1736,
+    "output_tokens": 303,
+    "sure_sn": 0.436,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 0.39,
+        "olasiliklar": {
+          "bilgi_yok": 0.6,
+          "engel_var": 0.4,
+          "engel_yok": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "bilgi_yok": 1.0,
+          "engel_var": 0.0,
+          "engel_yok": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.16,
+      "evcil_hayvan": 0.84
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.12,
+      "gastronomi": 0.06,
+      "doga_macera": 0.06,
+      "balayi": 0.06,
+      "ergen_cocuklu_aile": 0.15,
+      "is_seyahati": 0.11,
+      "yalniz_gezgin": 0.15000000000000002
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.1,
+        "sosyal": 0.2
+      }
+    }
+  },
+  "27": {
+    "isim": "Emirgan Korusu",
+    "girdi_hash": "97b6d8eaf3bd",
+    "model": "jev-1.13.0",
+    "input_tokens": 1741,
+    "output_tokens": 305,
+    "sure_sn": 0.377,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_var",
+        "confidence": 0.99,
+        "olasiliklar": {
+          "engel_var": 1.0,
+          "engel_yok": 0.0,
+          "bilgi_yok": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_var",
+        "confidence": 0.99,
+        "olasiliklar": {
+          "engel_var": 0.99,
+          "engel_yok": 0.0,
+          "bilgi_yok": 0.01
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.33,
+      "evcil_hayvan": 0.08
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.78,
+      "gastronomi": 0.19,
+      "doga_macera": 0.86,
+      "balayi": 0.75,
+      "ergen_cocuklu_aile": 0.7,
+      "is_seyahati": 0.46,
+      "yalniz_gezgin": 0.675
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.85,
+        "sosyal": 0.5
+      }
+    }
+  },
+  "28": {
+    "isim": "Yıldız Parkı",
+    "girdi_hash": "bfa3afd14b87",
+    "model": "jev-1.13.0",
+    "input_tokens": 1735,
+    "output_tokens": 305,
+    "sure_sn": 0.464,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_var",
+        "confidence": 0.92,
+        "olasiliklar": {
+          "bilgi_yok": 0.05,
+          "engel_yok": 0.0,
+          "engel_var": 0.95
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_var",
+        "confidence": 0.81,
+        "olasiliklar": {
+          "bilgi_yok": 0.13,
+          "engel_yok": 0.0,
+          "engel_var": 0.87
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.18,
+      "evcil_hayvan": 0.16
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.75,
+      "gastronomi": 0.27,
+      "doga_macera": 0.84,
+      "balayi": 0.78,
+      "ergen_cocuklu_aile": 0.6,
+      "is_seyahati": 0.49,
+      "yalniz_gezgin": 0.65
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.84,
+        "sosyal": 0.46
+      }
+    }
+  },
+  "29": {
+    "isim": "Gülhane Parkı",
+    "girdi_hash": "b1bdab0c1058",
+    "model": "jev-1.13.0",
+    "input_tokens": 1737,
+    "output_tokens": 307,
+    "sure_sn": 0.4,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_yok",
+        "confidence": 0.99,
+        "olasiliklar": {
+          "engel_yok": 1.0,
+          "bilgi_yok": 0.0,
+          "engel_var": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_yok",
+        "confidence": 0.9,
+        "olasiliklar": {
+          "engel_yok": 0.93,
+          "bilgi_yok": 0.07,
+          "engel_var": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.15,
+      "evcil_hayvan": 0.21
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.83,
+      "gastronomi": 0.29,
+      "doga_macera": 0.48,
+      "balayi": 0.72,
+      "ergen_cocuklu_aile": 0.59,
+      "is_seyahati": 0.67,
+      "yalniz_gezgin": 0.6950000000000001
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.88,
+        "sosyal": 0.51
+      }
+    }
+  },
+  "30": {
+    "isim": "Belgrad Ormanı",
+    "girdi_hash": "b88bb93a5331",
+    "model": "jev-1.13.0",
+    "input_tokens": 1742,
+    "output_tokens": 305,
+    "sure_sn": 0.49,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_var",
+        "confidence": 0.99,
+        "olasiliklar": {
+          "engel_var": 0.99,
+          "bilgi_yok": 0.01,
+          "engel_yok": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_var",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 1.0,
+          "bilgi_yok": 0.0,
+          "engel_yok": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.67,
+      "evcil_hayvan": 0.14
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.17,
+      "gastronomi": 0.1,
+      "doga_macera": 0.94,
+      "balayi": 0.66,
+      "ergen_cocuklu_aile": 0.61,
+      "is_seyahati": 0.13,
+      "yalniz_gezgin": 0.495
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.7,
+        "sosyal": 0.29
+      }
+    }
+  },
+  "31": {
+    "isim": "Maçka Demokrasi Parkı",
+    "girdi_hash": "946e109aae3b",
+    "model": "jev-1.13.0",
+    "input_tokens": 1738,
+    "output_tokens": 303,
+    "sure_sn": 0.385,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 0.89,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "bilgi_yok": 0.93,
+          "engel_var": 0.07
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 0.97,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "bilgi_yok": 0.98,
+          "engel_var": 0.02
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.22,
+      "evcil_hayvan": 0.06
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.25,
+      "gastronomi": 0.13,
+      "doga_macera": 0.82,
+      "balayi": 0.51,
+      "ergen_cocuklu_aile": 0.69,
+      "is_seyahati": 0.6,
+      "yalniz_gezgin": 0.745
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.86,
+        "sosyal": 0.63
+      }
+    }
+  },
+  "32": {
+    "isim": "Moda Sahili",
+    "girdi_hash": "e5e02024ffde",
+    "model": "jev-1.13.0",
+    "input_tokens": 1736,
+    "output_tokens": 307,
+    "sure_sn": 0.402,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_yok",
+        "confidence": 0.99,
+        "olasiliklar": {
+          "bilgi_yok": 0.0,
+          "engel_var": 0.0,
+          "engel_yok": 1.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_yok",
+        "confidence": 0.99,
+        "olasiliklar": {
+          "bilgi_yok": 0.01,
+          "engel_var": 0.0,
+          "engel_yok": 0.99
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.16,
+      "evcil_hayvan": 0.08
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.2,
+      "gastronomi": 0.3,
+      "doga_macera": 0.64,
+      "balayi": 0.53,
+      "ergen_cocuklu_aile": 0.65,
+      "is_seyahati": 0.37,
+      "yalniz_gezgin": 0.755
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.83,
+        "sosyal": 0.68
+      }
+    }
+  },
+  "34": {
+    "isim": "Polonezköy",
+    "girdi_hash": "6185ed7d7a1f",
+    "model": "jev-1.13.0",
+    "input_tokens": 1733,
+    "output_tokens": 303,
+    "sure_sn": 0.398,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 0.53,
+        "olasiliklar": {
+          "bilgi_yok": 0.69,
+          "engel_var": 0.31,
+          "engel_yok": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 0.58,
+        "olasiliklar": {
+          "bilgi_yok": 0.72,
+          "engel_var": 0.28,
+          "engel_yok": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.41,
+      "evcil_hayvan": 0.25
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.69,
+      "gastronomi": 0.39,
+      "doga_macera": 0.92,
+      "balayi": 0.76,
+      "ergen_cocuklu_aile": 0.74,
+      "is_seyahati": 0.12,
+      "yalniz_gezgin": 0.46499999999999997
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.59,
+        "sosyal": 0.34
+      }
+    }
+  },
+  "35": {
+    "isim": "Büyükada",
+    "girdi_hash": "7dfaaa442605",
+    "model": "jev-1.13.0",
+    "input_tokens": 1743,
+    "output_tokens": 305,
+    "sure_sn": 0.372,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_var",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "engel_var": 1.0,
+          "bilgi_yok": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_var",
+        "confidence": 0.98,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "engel_var": 0.98,
+          "bilgi_yok": 0.02
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.62,
+      "evcil_hayvan": 0.47
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.84,
+      "gastronomi": 0.7,
+      "doga_macera": 0.83,
+      "balayi": 0.79,
+      "ergen_cocuklu_aile": 0.77,
+      "is_seyahati": 0.25,
+      "yalniz_gezgin": 0.6950000000000001
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.83,
+        "sosyal": 0.56
+      }
+    }
+  },
+  "36": {
+    "isim": "Heybeliada",
+    "girdi_hash": "fa01be149c72",
+    "model": "jev-1.13.0",
+    "input_tokens": 1734,
+    "output_tokens": 305,
+    "sure_sn": 0.402,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_var",
+        "confidence": 0.98,
+        "olasiliklar": {
+          "bilgi_yok": 0.01,
+          "engel_yok": 0.0,
+          "engel_var": 0.99
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_var",
+        "confidence": 0.94,
+        "olasiliklar": {
+          "bilgi_yok": 0.04,
+          "engel_yok": 0.0,
+          "engel_var": 0.96
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.35,
+      "evcil_hayvan": 0.34
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.43,
+      "gastronomi": 0.31,
+      "doga_macera": 0.92,
+      "balayi": 0.81,
+      "ergen_cocuklu_aile": 0.66,
+      "is_seyahati": 0.19,
+      "yalniz_gezgin": 0.56
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.84,
+        "sosyal": 0.28
+      }
+    }
+  },
+  "37": {
+    "isim": "Kilyos Plajı",
+    "girdi_hash": "2babe0de7910",
+    "model": "jev-1.13.0",
+    "input_tokens": 1730,
+    "output_tokens": 303,
+    "sure_sn": 0.401,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 0.86,
+        "olasiliklar": {
+          "engel_var": 0.09,
+          "engel_yok": 0.0,
+          "bilgi_yok": 0.91
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 0.87,
+        "olasiliklar": {
+          "engel_var": 0.09,
+          "engel_yok": 0.0,
+          "bilgi_yok": 0.91
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.64,
+      "evcil_hayvan": 0.22
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.14,
+      "gastronomi": 0.24,
+      "doga_macera": 0.87,
+      "balayi": 0.45,
+      "ergen_cocuklu_aile": 0.69,
+      "is_seyahati": 0.27,
+      "yalniz_gezgin": 0.615
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.61,
+        "sosyal": 0.62
+      }
+    }
+  },
+  "38": {
+    "isim": "Riva",
+    "girdi_hash": "aca9d7caacdd",
+    "model": "jev-1.13.0",
+    "input_tokens": 1730,
+    "output_tokens": 304,
+    "sure_sn": 0.481,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 0.74,
+        "olasiliklar": {
+          "bilgi_yok": 0.83,
+          "engel_yok": 0.0,
+          "engel_var": 0.17
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_var",
+        "confidence": 0.38,
+        "olasiliklar": {
+          "bilgi_yok": 0.41,
+          "engel_yok": 0.0,
+          "engel_var": 0.59
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.71,
+      "evcil_hayvan": 0.14
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.12,
+      "gastronomi": 0.14,
+      "doga_macera": 0.95,
+      "balayi": 0.62,
+      "ergen_cocuklu_aile": 0.77,
+      "is_seyahati": 0.12,
+      "yalniz_gezgin": 0.39
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.49,
+        "sosyal": 0.29
+      }
+    }
+  },
+  "39": {
+    "isim": "Atatürk Arboretumu",
+    "girdi_hash": "c7ac0baa9188",
+    "model": "jev-1.13.0",
+    "input_tokens": 1738,
+    "output_tokens": 303,
+    "sure_sn": 0.391,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 0.97,
+        "olasiliklar": {
+          "engel_var": 0.02,
+          "engel_yok": 0.0,
+          "bilgi_yok": 0.98
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 0.0,
+          "engel_yok": 0.0,
+          "bilgi_yok": 1.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.67,
+      "evcil_hayvan": 0.96
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.31,
+      "gastronomi": 0.07,
+      "doga_macera": 0.72,
+      "balayi": 0.75,
+      "ergen_cocuklu_aile": 0.41,
+      "is_seyahati": 0.27,
+      "yalniz_gezgin": 0.48
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.84,
+        "sosyal": 0.12
+      }
+    }
+  },
+  "40": {
+    "isim": "Fethi Paşa Korusu",
+    "girdi_hash": "74402d65427b",
+    "model": "jev-1.13.0",
+    "input_tokens": 1731,
+    "output_tokens": 305,
+    "sure_sn": 0.49,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_var",
+        "confidence": 0.86,
+        "olasiliklar": {
+          "engel_var": 0.9,
+          "engel_yok": 0.09,
+          "bilgi_yok": 0.01
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_var",
+        "confidence": 0.91,
+        "olasiliklar": {
+          "engel_var": 0.94,
+          "engel_yok": 0.05,
+          "bilgi_yok": 0.01
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.34,
+      "evcil_hayvan": 0.17
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.56,
+      "gastronomi": 0.25,
+      "doga_macera": 0.76,
+      "balayi": 0.85,
+      "ergen_cocuklu_aile": 0.49,
+      "is_seyahati": 0.56,
+      "yalniz_gezgin": 0.58
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.84,
+        "sosyal": 0.32
+      }
+    }
+  },
+  "41": {
+    "isim": "Ortaköy Meydanı ve Camii",
+    "girdi_hash": "352305a9f2ff",
+    "model": "jev-1.13.0",
+    "input_tokens": 1748,
+    "output_tokens": 303,
+    "sure_sn": 0.364,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 0.44,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "engel_var": 0.37,
+          "bilgi_yok": 0.63
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 0.37,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "engel_var": 0.42,
+          "bilgi_yok": 0.58
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.54,
+      "evcil_hayvan": 0.61
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.88,
+      "gastronomi": 0.78,
+      "doga_macera": 0.36,
+      "balayi": 0.43,
+      "ergen_cocuklu_aile": 0.81,
+      "is_seyahati": 0.61,
+      "yalniz_gezgin": 0.8300000000000001
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.85,
+        "sosyal": 0.81
+      }
+    }
+  },
+  "42": {
+    "isim": "İstiklal Caddesi",
+    "girdi_hash": "011d09e9fffb",
+    "model": "jev-1.13.0",
+    "input_tokens": 1741,
+    "output_tokens": 304,
+    "sure_sn": 0.418,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_var",
+        "confidence": 0.95,
+        "olasiliklar": {
+          "engel_var": 0.97,
+          "bilgi_yok": 0.03,
+          "engel_yok": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 0.56,
+        "olasiliklar": {
+          "engel_var": 0.29,
+          "bilgi_yok": 0.7,
+          "engel_yok": 0.01
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.32,
+      "evcil_hayvan": 0.35
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.88,
+      "gastronomi": 0.6,
+      "doga_macera": 0.1,
+      "balayi": 0.26,
+      "ergen_cocuklu_aile": 0.79,
+      "is_seyahati": 0.62,
+      "yalniz_gezgin": 0.825
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.86,
+        "sosyal": 0.79
+      }
+    }
+  },
+  "43": {
+    "isim": "Kadıköy Çarşısı",
+    "girdi_hash": "1e7c09c38144",
+    "model": "jev-1.13.0",
+    "input_tokens": 1745,
+    "output_tokens": 305,
+    "sure_sn": 0.395,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_var",
+        "confidence": 0.99,
+        "olasiliklar": {
+          "bilgi_yok": 0.01,
+          "engel_yok": 0.0,
+          "engel_var": 0.99
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_var",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "bilgi_yok": 0.0,
+          "engel_yok": 0.0,
+          "engel_var": 1.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.69,
+      "evcil_hayvan": 0.3
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.65,
+      "gastronomi": 0.92,
+      "doga_macera": 0.16,
+      "balayi": 0.21,
+      "ergen_cocuklu_aile": 0.71,
+      "is_seyahati": 0.45,
+      "yalniz_gezgin": 0.805
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.81,
+        "sosyal": 0.8
+      }
+    }
+  },
+  "44": {
+    "isim": "Balat ve Fener Sokakları",
+    "girdi_hash": "e61a42ad4b88",
+    "model": "jev-1.13.0",
+    "input_tokens": 1743,
+    "output_tokens": 305,
+    "sure_sn": 0.42,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_var",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "engel_var": 1.0,
+          "bilgi_yok": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_var",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "engel_var": 1.0,
+          "bilgi_yok": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.77,
+      "evcil_hayvan": 0.35
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.93,
+      "gastronomi": 0.58,
+      "doga_macera": 0.23,
+      "balayi": 0.78,
+      "ergen_cocuklu_aile": 0.76,
+      "is_seyahati": 0.46,
+      "yalniz_gezgin": 0.69
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.82,
+        "sosyal": 0.56
+      }
+    }
+  },
+  "45": {
+    "isim": "Arnavutköy Sahili",
+    "girdi_hash": "119b85ef833c",
+    "model": "jev-1.13.0",
+    "input_tokens": 1732,
+    "output_tokens": 303,
+    "sure_sn": 0.468,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 0.95,
+        "olasiliklar": {
+          "engel_yok": 0.01,
+          "bilgi_yok": 0.96,
+          "engel_var": 0.03
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 0.97,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "bilgi_yok": 0.98,
+          "engel_var": 0.02
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.31,
+      "evcil_hayvan": 0.19
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.81,
+      "gastronomi": 0.75,
+      "doga_macera": 0.6,
+      "balayi": 0.87,
+      "ergen_cocuklu_aile": 0.59,
+      "is_seyahati": 0.49,
+      "yalniz_gezgin": 0.6
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.85,
+        "sosyal": 0.35
+      }
+    }
+  },
+  "46": {
+    "isim": "Bebek Sahili",
+    "girdi_hash": "271702d3f159",
+    "model": "jev-1.13.0",
+    "input_tokens": 1744,
+    "output_tokens": 307,
+    "sure_sn": 0.376,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_yok",
+        "confidence": 0.61,
+        "olasiliklar": {
+          "bilgi_yok": 0.21,
+          "engel_var": 0.05,
+          "engel_yok": 0.74
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_yok",
+        "confidence": 0.42,
+        "olasiliklar": {
+          "bilgi_yok": 0.38,
+          "engel_var": 0.01,
+          "engel_yok": 0.61
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.37,
+      "evcil_hayvan": 0.13
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.54,
+      "gastronomi": 0.54,
+      "doga_macera": 0.66,
+      "balayi": 0.8,
+      "ergen_cocuklu_aile": 0.66,
+      "is_seyahati": 0.62,
+      "yalniz_gezgin": 0.73
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.88,
+        "sosyal": 0.58
+      }
+    }
+  },
+  "47": {
+    "isim": "Zorlu Center",
+    "girdi_hash": "d5108414012c",
+    "model": "jev-1.13.0",
+    "input_tokens": 1725,
+    "output_tokens": 307,
+    "sure_sn": 0.412,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_yok": 1.0,
+          "engel_var": 0.0,
+          "bilgi_yok": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_yok": 1.0,
+          "engel_var": 0.0,
+          "bilgi_yok": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.07,
+      "evcil_hayvan": 0.78
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.7,
+      "gastronomi": 0.47,
+      "doga_macera": 0.07,
+      "balayi": 0.44,
+      "ergen_cocuklu_aile": 0.75,
+      "is_seyahati": 0.65,
+      "yalniz_gezgin": 0.775
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.89,
+        "sosyal": 0.66
+      }
+    }
+  },
+  "48": {
+    "isim": "İstinye Park",
+    "girdi_hash": "97894b0cc56c",
+    "model": "jev-1.13.0",
+    "input_tokens": 1733,
+    "output_tokens": 307,
+    "sure_sn": 0.377,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_yok",
+        "confidence": 0.97,
+        "olasiliklar": {
+          "bilgi_yok": 0.0,
+          "engel_var": 0.02,
+          "engel_yok": 0.98
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "bilgi_yok": 0.0,
+          "engel_var": 0.0,
+          "engel_yok": 1.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.09,
+      "evcil_hayvan": 0.18
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.29,
+      "gastronomi": 0.57,
+      "doga_macera": 0.13,
+      "balayi": 0.38,
+      "ergen_cocuklu_aile": 0.78,
+      "is_seyahati": 0.53,
+      "yalniz_gezgin": 0.765
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.88,
+        "sosyal": 0.65
+      }
+    }
+  },
+  "49": {
+    "isim": "Arasta Çarşısı",
+    "girdi_hash": "a280e1e633f9",
+    "model": "jev-1.13.0",
+    "input_tokens": 1735,
+    "output_tokens": 303,
+    "sure_sn": 0.614,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 0.9,
+        "olasiliklar": {
+          "engel_yok": 0.04,
+          "engel_var": 0.03,
+          "bilgi_yok": 0.93
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 0.98,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "engel_var": 0.01,
+          "bilgi_yok": 0.99
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.19,
+      "evcil_hayvan": 0.4
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.85,
+      "gastronomi": 0.15,
+      "doga_macera": 0.09,
+      "balayi": 0.73,
+      "ergen_cocuklu_aile": 0.49,
+      "is_seyahati": 0.67,
+      "yalniz_gezgin": 0.61
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.84,
+        "sosyal": 0.38
+      }
+    }
+  },
+  "50": {
+    "isim": "Abdi İpekçi Caddesi",
+    "girdi_hash": "f523a5d1a88a",
+    "model": "jev-1.13.0",
+    "input_tokens": 1727,
+    "output_tokens": 307,
+    "sure_sn": 0.38,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "bilgi_yok": 0.0,
+          "engel_yok": 1.0,
+          "engel_var": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "bilgi_yok": 0.0,
+          "engel_yok": 1.0,
+          "engel_var": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.11,
+      "evcil_hayvan": 0.37
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.25,
+      "gastronomi": 0.27,
+      "doga_macera": 0.06,
+      "balayi": 0.5,
+      "ergen_cocuklu_aile": 0.6,
+      "is_seyahati": 0.73,
+      "yalniz_gezgin": 0.69
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.85,
+        "sosyal": 0.53
+      }
+    }
+  },
+  "52": {
+    "isim": "Pandeli",
+    "girdi_hash": "6f26e154d68a",
+    "model": "jev-1.13.0",
+    "input_tokens": 1736,
+    "output_tokens": 305,
+    "sure_sn": 0.498,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_var",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 1.0,
+          "bilgi_yok": 0.0,
+          "engel_yok": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_var",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 1.0,
+          "bilgi_yok": 0.0,
+          "engel_yok": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.91,
+      "evcil_hayvan": 0.82
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.91,
+      "gastronomi": 0.91,
+      "doga_macera": 0.09,
+      "balayi": 0.55,
+      "ergen_cocuklu_aile": 0.54,
+      "is_seyahati": 0.49,
+      "yalniz_gezgin": 0.62
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.74,
+        "sosyal": 0.5
+      }
+    }
+  },
+  "53": {
+    "isim": "Hamdi Restoran",
+    "girdi_hash": "871ea321725b",
+    "model": "jev-1.13.0",
+    "input_tokens": 1737,
+    "output_tokens": 307,
+    "sure_sn": 0.392,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 0.0,
+          "bilgi_yok": 0.0,
+          "engel_yok": 1.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 0.0,
+          "bilgi_yok": 0.0,
+          "engel_yok": 1.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.26,
+      "evcil_hayvan": 0.68
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.52,
+      "gastronomi": 0.86,
+      "doga_macera": 0.19,
+      "balayi": 0.41,
+      "ergen_cocuklu_aile": 0.75,
+      "is_seyahati": 0.61,
+      "yalniz_gezgin": 0.605
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.71,
+        "sosyal": 0.5
+      }
+    }
+  },
+  "54": {
+    "isim": "Tarihi Sultanahmet Köftecisi",
+    "girdi_hash": "76bdc45a8a9d",
+    "model": "jev-1.13.0",
+    "input_tokens": 1743,
+    "output_tokens": 303,
+    "sure_sn": 0.378,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "engel_var": 0.0,
+          "bilgi_yok": 1.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "engel_var": 0.0,
+          "bilgi_yok": 1.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.14,
+      "evcil_hayvan": 0.79
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.72,
+      "gastronomi": 0.84,
+      "doga_macera": 0.07,
+      "balayi": 0.2,
+      "ergen_cocuklu_aile": 0.32,
+      "is_seyahati": 0.72,
+      "yalniz_gezgin": 0.635
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.86,
+        "sosyal": 0.41
+      }
+    }
+  },
+  "55": {
+    "isim": "Karaköy Lokantası",
+    "girdi_hash": "0e49ef8e1b37",
+    "model": "jev-1.13.0",
+    "input_tokens": 1741,
+    "output_tokens": 303,
+    "sure_sn": 0.406,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "bilgi_yok": 1.0,
+          "engel_yok": 0.0,
+          "engel_var": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "bilgi_yok": 1.0,
+          "engel_yok": 0.0,
+          "engel_var": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.28,
+      "evcil_hayvan": 0.81
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.72,
+      "gastronomi": 0.88,
+      "doga_macera": 0.09,
+      "balayi": 0.48,
+      "ergen_cocuklu_aile": 0.42,
+      "is_seyahati": 0.82,
+      "yalniz_gezgin": 0.67
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.79,
+        "sosyal": 0.55
+      }
+    }
+  },
+  "56": {
+    "isim": "Mikla",
+    "girdi_hash": "e486d5d8d71e",
+    "model": "jev-1.13.0",
+    "input_tokens": 1733,
+    "output_tokens": 303,
+    "sure_sn": 0.41,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "bilgi_yok": 1.0,
+          "engel_yok": 0.0,
+          "engel_var": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "bilgi_yok": 1.0,
+          "engel_var": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.67,
+      "evcil_hayvan": 0.87
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.6,
+      "gastronomi": 0.77,
+      "doga_macera": 0.13,
+      "balayi": 0.94,
+      "ergen_cocuklu_aile": 0.26,
+      "is_seyahati": 0.48,
+      "yalniz_gezgin": 0.42000000000000004
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.64,
+        "sosyal": 0.2
+      }
+    }
+  },
+  "57": {
+    "isim": "Neolokal",
+    "girdi_hash": "d3f36bf5e9e0",
+    "model": "jev-1.13.0",
+    "input_tokens": 1730,
+    "output_tokens": 303,
+    "sure_sn": 0.426,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 0.0,
+          "engel_yok": 0.0,
+          "bilgi_yok": 1.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 0.0,
+          "engel_yok": 0.0,
+          "bilgi_yok": 1.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.59,
+      "evcil_hayvan": 0.86
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.85,
+      "gastronomi": 0.77,
+      "doga_macera": 0.12,
+      "balayi": 0.86,
+      "ergen_cocuklu_aile": 0.32,
+      "is_seyahati": 0.44,
+      "yalniz_gezgin": 0.505
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.73,
+        "sosyal": 0.28
+      }
+    }
+  },
+  "58": {
+    "isim": "Sunset Grill & Bar",
+    "girdi_hash": "5305f2efb431",
+    "model": "jev-1.13.0",
+    "input_tokens": 1735,
+    "output_tokens": 303,
+    "sure_sn": 0.442,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 0.99,
+        "olasiliklar": {
+          "engel_var": 0.01,
+          "bilgi_yok": 0.99,
+          "engel_yok": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 0.99,
+        "olasiliklar": {
+          "engel_var": 0.01,
+          "bilgi_yok": 0.99,
+          "engel_yok": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.58,
+      "evcil_hayvan": 0.66
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.51,
+      "gastronomi": 0.69,
+      "doga_macera": 0.32,
+      "balayi": 0.88,
+      "ergen_cocuklu_aile": 0.53,
+      "is_seyahati": 0.76,
+      "yalniz_gezgin": 0.6200000000000001
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.68,
+        "sosyal": 0.56
+      }
+    }
+  },
+  "59": {
+    "isim": "Balıkçı Sabahattin",
+    "girdi_hash": "eaa50fec61be",
+    "model": "jev-1.13.0",
+    "input_tokens": 1736,
+    "output_tokens": 303,
+    "sure_sn": 0.493,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 0.98,
+        "olasiliklar": {
+          "bilgi_yok": 0.99,
+          "engel_yok": 0.0,
+          "engel_var": 0.01
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 0.99,
+        "olasiliklar": {
+          "bilgi_yok": 0.99,
+          "engel_yok": 0.0,
+          "engel_var": 0.01
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.23,
+      "evcil_hayvan": 0.5
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.58,
+      "gastronomi": 0.88,
+      "doga_macera": 0.53,
+      "balayi": 0.75,
+      "ergen_cocuklu_aile": 0.42,
+      "is_seyahati": 0.42,
+      "yalniz_gezgin": 0.5700000000000001
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.76,
+        "sosyal": 0.38
+      }
+    }
+  },
+  "60": {
+    "isim": "Kıyı Restaurant",
+    "girdi_hash": "ad5d979efe86",
+    "model": "jev-1.13.0",
+    "input_tokens": 1730,
+    "output_tokens": 303,
+    "sure_sn": 0.382,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 0.0,
+          "bilgi_yok": 1.0,
+          "engel_yok": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 0.0,
+          "bilgi_yok": 1.0,
+          "engel_yok": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.26,
+      "evcil_hayvan": 0.77
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.57,
+      "gastronomi": 0.89,
+      "doga_macera": 0.19,
+      "balayi": 0.8,
+      "ergen_cocuklu_aile": 0.26,
+      "is_seyahati": 0.34,
+      "yalniz_gezgin": 0.44499999999999995
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.7,
+        "sosyal": 0.19
+      }
+    }
+  },
+  "61": {
+    "isim": "Develi",
+    "girdi_hash": "7b9f86c2307b",
+    "model": "jev-1.13.0",
+    "input_tokens": 1739,
+    "output_tokens": 303,
+    "sure_sn": 0.415,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "bilgi_yok": 1.0,
+          "engel_var": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "bilgi_yok": 1.0,
+          "engel_var": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.14,
+      "evcil_hayvan": 0.8
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.6,
+      "gastronomi": 0.91,
+      "doga_macera": 0.08,
+      "balayi": 0.23,
+      "ergen_cocuklu_aile": 0.6,
+      "is_seyahati": 0.45,
+      "yalniz_gezgin": 0.565
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.66,
+        "sosyal": 0.47
+      }
+    }
+  },
+  "62": {
+    "isim": "Zübeyir Ocakbaşı",
+    "girdi_hash": "0e3038a86974",
+    "model": "jev-1.13.0",
+    "input_tokens": 1738,
+    "output_tokens": 303,
+    "sure_sn": 0.399,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 0.35,
+        "olasiliklar": {
+          "engel_var": 0.43,
+          "bilgi_yok": 0.57,
+          "engel_yok": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 0.0,
+          "bilgi_yok": 1.0,
+          "engel_yok": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.37,
+      "evcil_hayvan": 0.77
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.36,
+      "gastronomi": 0.89,
+      "doga_macera": 0.15,
+      "balayi": 0.17,
+      "ergen_cocuklu_aile": 0.76,
+      "is_seyahati": 0.37,
+      "yalniz_gezgin": 0.74
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.78,
+        "sosyal": 0.7
+      }
+    }
+  },
+  "63": {
+    "isim": "Vefa Bozacısı",
+    "girdi_hash": "56a1972f5918",
+    "model": "jev-1.13.0",
+    "input_tokens": 1741,
+    "output_tokens": 304,
+    "sure_sn": 0.472,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_var",
+        "confidence": 0.78,
+        "olasiliklar": {
+          "engel_var": 0.86,
+          "engel_yok": 0.01,
+          "bilgi_yok": 0.13
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 0.91,
+        "olasiliklar": {
+          "engel_var": 0.06,
+          "bilgi_yok": 0.94,
+          "engel_yok": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.25,
+      "evcil_hayvan": 0.68
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.86,
+      "gastronomi": 0.84,
+      "doga_macera": 0.08,
+      "balayi": 0.29,
+      "ergen_cocuklu_aile": 0.35,
+      "is_seyahati": 0.61,
+      "yalniz_gezgin": 0.6
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.85,
+        "sosyal": 0.35
+      }
+    }
+  },
+  "64": {
+    "isim": "Hafız Mustafa 1864",
+    "girdi_hash": "83c30174b54a",
+    "model": "jev-1.13.0",
+    "input_tokens": 1735,
+    "output_tokens": 305,
+    "sure_sn": 0.463,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_var",
+        "confidence": 0.85,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "engel_var": 0.9,
+          "bilgi_yok": 0.1
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_var",
+        "confidence": 0.72,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "engel_var": 0.8200000000000001,
+          "bilgi_yok": 0.18
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.62,
+      "evcil_hayvan": 0.81
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.59,
+      "gastronomi": 0.85,
+      "doga_macera": 0.09,
+      "balayi": 0.57,
+      "ergen_cocuklu_aile": 0.5,
+      "is_seyahati": 0.63,
+      "yalniz_gezgin": 0.625
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.84,
+        "sosyal": 0.41
+      }
+    }
+  },
+  "65": {
+    "isim": "Karaköy Güllüoğlu",
+    "girdi_hash": "d09db51d5d17",
+    "model": "jev-1.13.0",
+    "input_tokens": 1746,
+    "output_tokens": 304,
+    "sure_sn": 0.52,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_var",
+        "confidence": 0.28,
+        "olasiliklar": {
+          "engel_var": 0.52,
+          "bilgi_yok": 0.48,
+          "engel_yok": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 0.0,
+          "bilgi_yok": 1.0,
+          "engel_yok": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.23,
+      "evcil_hayvan": 0.73
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.53,
+      "gastronomi": 0.91,
+      "doga_macera": 0.07,
+      "balayi": 0.24,
+      "ergen_cocuklu_aile": 0.57,
+      "is_seyahati": 0.83,
+      "yalniz_gezgin": 0.615
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.89,
+        "sosyal": 0.34
+      }
+    }
+  },
+  "66": {
+    "isim": "Baylan Pastanesi",
+    "girdi_hash": "a95cc0eed1bb",
+    "model": "jev-1.13.0",
+    "input_tokens": 1738,
+    "output_tokens": 303,
+    "sure_sn": 0.462,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "bilgi_yok": 1.0,
+          "engel_var": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "bilgi_yok": 1.0,
+          "engel_var": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.14,
+      "evcil_hayvan": 0.56
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.78,
+      "gastronomi": 0.82,
+      "doga_macera": 0.17,
+      "balayi": 0.77,
+      "ergen_cocuklu_aile": 0.41,
+      "is_seyahati": 0.52,
+      "yalniz_gezgin": 0.54
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.83,
+        "sosyal": 0.25
+      }
+    }
+  },
+  "67": {
+    "isim": "Mandabatmaz",
+    "girdi_hash": "39ae095ccaa1",
+    "model": "jev-1.13.0",
+    "input_tokens": 1739,
+    "output_tokens": 303,
+    "sure_sn": 0.408,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 0.9,
+        "olasiliklar": {
+          "engel_var": 0.06,
+          "engel_yok": 0.01,
+          "bilgi_yok": 0.93
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 0.94,
+        "olasiliklar": {
+          "engel_var": 0.04,
+          "engel_yok": 0.0,
+          "bilgi_yok": 0.96
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.34,
+      "evcil_hayvan": 0.66
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.69,
+      "gastronomi": 0.4,
+      "doga_macera": 0.1,
+      "balayi": 0.47,
+      "ergen_cocuklu_aile": 0.39,
+      "is_seyahati": 0.57,
+      "yalniz_gezgin": 0.875
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.83,
+        "sosyal": 0.92
+      }
+    }
+  },
+  "69": {
+    "isim": "Çınaraltı Çay Bahçesi",
+    "girdi_hash": "67c00ab332c5",
+    "model": "jev-1.13.0",
+    "input_tokens": 1735,
+    "output_tokens": 307,
+    "sure_sn": 0.479,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 0.0,
+          "bilgi_yok": 0.0,
+          "engel_yok": 1.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 0.0,
+          "bilgi_yok": 0.0,
+          "engel_yok": 1.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.21,
+      "evcil_hayvan": 0.18
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.67,
+      "gastronomi": 0.59,
+      "doga_macera": 0.68,
+      "balayi": 0.81,
+      "ergen_cocuklu_aile": 0.43,
+      "is_seyahati": 0.49,
+      "yalniz_gezgin": 0.655
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.85,
+        "sosyal": 0.46
+      }
+    }
+  },
+  "70": {
+    "isim": "Emirgan Sütiş",
+    "girdi_hash": "022ab9b10b49",
+    "model": "jev-1.13.0",
+    "input_tokens": 1733,
+    "output_tokens": 303,
+    "sure_sn": 0.403,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 0.69,
+        "olasiliklar": {
+          "engel_var": 0.2,
+          "bilgi_yok": 0.79,
+          "engel_yok": 0.01
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 0.0,
+          "bilgi_yok": 1.0,
+          "engel_yok": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.24,
+      "evcil_hayvan": 0.5
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.45,
+      "gastronomi": 0.83,
+      "doga_macera": 0.4,
+      "balayi": 0.25,
+      "ergen_cocuklu_aile": 0.6,
+      "is_seyahati": 0.27,
+      "yalniz_gezgin": 0.57
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.69,
+        "sosyal": 0.45
+      }
+    }
+  },
+  "71": {
+    "isim": "Van Kahvaltı Evi",
+    "girdi_hash": "610704a45090",
+    "model": "jev-1.13.0",
+    "input_tokens": 1738,
+    "output_tokens": 305,
+    "sure_sn": 0.397,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_var",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "bilgi_yok": 0.0,
+          "engel_var": 1.0,
+          "engel_yok": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_var",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "bilgi_yok": 0.0,
+          "engel_var": 1.0,
+          "engel_yok": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.87,
+      "evcil_hayvan": 0.78
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.49,
+      "gastronomi": 0.89,
+      "doga_macera": 0.17,
+      "balayi": 0.35,
+      "ergen_cocuklu_aile": 0.4,
+      "is_seyahati": 0.3,
+      "yalniz_gezgin": 0.6
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.75,
+        "sosyal": 0.45
+      }
+    }
+  },
+  "72": {
+    "isim": "Beşiktaş Kahvaltıcılar Sokağı",
+    "girdi_hash": "2005740c3823",
+    "model": "jev-1.13.0",
+    "input_tokens": 1733,
+    "output_tokens": 303,
+    "sure_sn": 0.484,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 0.32,
+        "olasiliklar": {
+          "bilgi_yok": 0.55,
+          "engel_var": 0.44,
+          "engel_yok": 0.01
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 0.93,
+        "olasiliklar": {
+          "bilgi_yok": 0.95,
+          "engel_var": 0.05,
+          "engel_yok": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.31,
+      "evcil_hayvan": 0.5
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.28,
+      "gastronomi": 0.84,
+      "doga_macera": 0.09,
+      "balayi": 0.15,
+      "ergen_cocuklu_aile": 0.63,
+      "is_seyahati": 0.43,
+      "yalniz_gezgin": 0.77
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.81,
+        "sosyal": 0.73
+      }
+    }
+  },
+  "73": {
+    "isim": "Ortaköy Kumpircileri",
+    "girdi_hash": "7d777a633aae",
+    "model": "jev-1.13.0",
+    "input_tokens": 1735,
+    "output_tokens": 303,
+    "sure_sn": 0.374,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 0.48,
+        "olasiliklar": {
+          "engel_var": 0.34,
+          "bilgi_yok": 0.65,
+          "engel_yok": 0.01
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 0.0,
+          "bilgi_yok": 1.0,
+          "engel_yok": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.35,
+      "evcil_hayvan": 0.13
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.32,
+      "gastronomi": 0.89,
+      "doga_macera": 0.43,
+      "balayi": 0.26,
+      "ergen_cocuklu_aile": 0.78,
+      "is_seyahati": 0.52,
+      "yalniz_gezgin": 0.71
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.85,
+        "sosyal": 0.57
+      }
+    }
+  },
+  "74": {
+    "isim": "Eminönü Balık Ekmek Tekneleri",
+    "girdi_hash": "0eceb40482ef",
+    "model": "jev-1.13.0",
+    "input_tokens": 1745,
+    "output_tokens": 305,
+    "sure_sn": 0.415,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_var",
+        "confidence": 0.93,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "engel_var": 0.96,
+          "bilgi_yok": 0.04
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_var",
+        "confidence": 0.86,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "engel_var": 0.91,
+          "bilgi_yok": 0.09
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.7,
+      "evcil_hayvan": 0.24
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.58,
+      "gastronomi": 0.85,
+      "doga_macera": 0.45,
+      "balayi": 0.19,
+      "ergen_cocuklu_aile": 0.65,
+      "is_seyahati": 0.49,
+      "yalniz_gezgin": 0.71
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.76,
+        "sosyal": 0.66
+      }
+    }
+  },
+  "75": {
+    "isim": "Kadıköy Balık Pazarı Sokağı",
+    "girdi_hash": "50d716d27a33",
+    "model": "jev-1.13.0",
+    "input_tokens": 1742,
+    "output_tokens": 303,
+    "sure_sn": 0.418,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 0.61,
+        "olasiliklar": {
+          "engel_var": 0.26,
+          "engel_yok": 0.0,
+          "bilgi_yok": 0.74
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 0.98,
+        "olasiliklar": {
+          "engel_var": 0.01,
+          "engel_yok": 0.0,
+          "bilgi_yok": 0.99
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.44,
+      "evcil_hayvan": 0.28
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.58,
+      "gastronomi": 0.96,
+      "doga_macera": 0.27,
+      "balayi": 0.19,
+      "ergen_cocuklu_aile": 0.73,
+      "is_seyahati": 0.55,
+      "yalniz_gezgin": 0.79
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.82,
+        "sosyal": 0.76
+      }
+    }
+  },
+  "76": {
+    "isim": "Asitane",
+    "girdi_hash": "fca2c7daa89a",
+    "model": "jev-1.13.0",
+    "input_tokens": 1728,
+    "output_tokens": 303,
+    "sure_sn": 0.542,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 0.0,
+          "bilgi_yok": 1.0,
+          "engel_yok": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 0.0,
+          "bilgi_yok": 1.0,
+          "engel_yok": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.2,
+      "evcil_hayvan": 0.81
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.94,
+      "gastronomi": 0.86,
+      "doga_macera": 0.09,
+      "balayi": 0.77,
+      "ergen_cocuklu_aile": 0.32,
+      "is_seyahati": 0.53,
+      "yalniz_gezgin": 0.5
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.78,
+        "sosyal": 0.22
+      }
+    }
+  },
+  "77": {
+    "isim": "Deraliye",
+    "girdi_hash": "4d7383a9320a",
+    "model": "jev-1.13.0",
+    "input_tokens": 1734,
+    "output_tokens": 303,
+    "sure_sn": 0.404,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 0.0,
+          "bilgi_yok": 1.0,
+          "engel_yok": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 0.0,
+          "bilgi_yok": 1.0,
+          "engel_yok": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.18,
+      "evcil_hayvan": 0.8
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.85,
+      "gastronomi": 0.84,
+      "doga_macera": 0.07,
+      "balayi": 0.59,
+      "ergen_cocuklu_aile": 0.51,
+      "is_seyahati": 0.72,
+      "yalniz_gezgin": 0.605
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.82,
+        "sosyal": 0.39
+      }
+    }
+  },
+  "78": {
+    "isim": "Feriye Lokantası",
+    "girdi_hash": "a4d3254cdc0f",
+    "model": "jev-1.13.0",
+    "input_tokens": 1732,
+    "output_tokens": 303,
+    "sure_sn": 0.407,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 0.0,
+          "bilgi_yok": 1.0,
+          "engel_yok": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 0.0,
+          "bilgi_yok": 1.0,
+          "engel_yok": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.59,
+      "evcil_hayvan": 0.84
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.89,
+      "gastronomi": 0.82,
+      "doga_macera": 0.18,
+      "balayi": 0.91,
+      "ergen_cocuklu_aile": 0.43,
+      "is_seyahati": 0.48,
+      "yalniz_gezgin": 0.49
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.65,
+        "sosyal": 0.33
+      }
+    }
+  },
+  "79": {
+    "isim": "Ulus 29",
+    "girdi_hash": "9fa9c2e5245a",
+    "model": "jev-1.13.0",
+    "input_tokens": 1728,
+    "output_tokens": 303,
+    "sure_sn": 0.492,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 0.83,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "engel_var": 0.11,
+          "bilgi_yok": 0.89
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 0.86,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "engel_var": 0.09,
+          "bilgi_yok": 0.91
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.89,
+      "evcil_hayvan": 0.84
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.38,
+      "gastronomi": 0.48,
+      "doga_macera": 0.13,
+      "balayi": 0.62,
+      "ergen_cocuklu_aile": 0.24,
+      "is_seyahati": 0.63,
+      "yalniz_gezgin": 0.56
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.45,
+        "sosyal": 0.67
+      }
+    }
+  },
+  "80": {
+    "isim": "Lucca",
+    "girdi_hash": "a06efcb442e3",
+    "model": "jev-1.13.0",
+    "input_tokens": 1726,
+    "output_tokens": 303,
+    "sure_sn": 0.415,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 0.32,
+        "olasiliklar": {
+          "engel_var": 0.45,
+          "engel_yok": 0.0,
+          "bilgi_yok": 0.55
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 0.98,
+        "olasiliklar": {
+          "engel_var": 0.01,
+          "engel_yok": 0.0,
+          "bilgi_yok": 0.99
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.5,
+      "evcil_hayvan": 0.48
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.27,
+      "gastronomi": 0.44,
+      "doga_macera": 0.14,
+      "balayi": 0.21,
+      "ergen_cocuklu_aile": 0.51,
+      "is_seyahati": 0.56,
+      "yalniz_gezgin": 0.7849999999999999
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.74,
+        "sosyal": 0.83
+      }
+    }
+  },
+  "81": {
+    "isim": "360 İstanbul",
+    "girdi_hash": "078d44e745b4",
+    "model": "jev-1.13.0",
+    "input_tokens": 1735,
+    "output_tokens": 303,
+    "sure_sn": 0.479,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 0.86,
+        "olasiliklar": {
+          "bilgi_yok": 0.91,
+          "engel_yok": 0.0,
+          "engel_var": 0.09
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 0.96,
+        "olasiliklar": {
+          "bilgi_yok": 0.98,
+          "engel_yok": 0.0,
+          "engel_var": 0.02
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.92,
+      "evcil_hayvan": 0.8
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.76,
+      "gastronomi": 0.31,
+      "doga_macera": 0.09,
+      "balayi": 0.52,
+      "ergen_cocuklu_aile": 0.43,
+      "is_seyahati": 0.7,
+      "yalniz_gezgin": 0.71
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.65,
+        "sosyal": 0.77
+      }
+    }
+  },
+  "82": {
+    "isim": "Nardis Jazz Club",
+    "girdi_hash": "1f23c23130aa",
+    "model": "jev-1.13.0",
+    "input_tokens": 1728,
+    "output_tokens": 303,
+    "sure_sn": 0.399,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 0.99,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "engel_var": 0.0,
+          "bilgi_yok": 1.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "engel_var": 0.0,
+          "bilgi_yok": 1.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.88,
+      "evcil_hayvan": 0.79
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.72,
+      "gastronomi": 0.19,
+      "doga_macera": 0.08,
+      "balayi": 0.81,
+      "ergen_cocuklu_aile": 0.18,
+      "is_seyahati": 0.68,
+      "yalniz_gezgin": 0.675
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.78,
+        "sosyal": 0.57
+      }
+    }
+  },
+  "84": {
+    "isim": "Arkaoda",
+    "girdi_hash": "0b9f7caf72ad",
+    "model": "jev-1.13.0",
+    "input_tokens": 1732,
+    "output_tokens": 303,
+    "sure_sn": 0.366,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 0.99,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "bilgi_yok": 1.0,
+          "engel_var": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "bilgi_yok": 1.0,
+          "engel_var": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.85,
+      "evcil_hayvan": 0.6
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.35,
+      "gastronomi": 0.17,
+      "doga_macera": 0.18,
+      "balayi": 0.27,
+      "ergen_cocuklu_aile": 0.4,
+      "is_seyahati": 0.38,
+      "yalniz_gezgin": 0.855
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.83,
+        "sosyal": 0.88
+      }
+    }
+  },
+  "85": {
+    "isim": "Kolektif House Levent",
+    "girdi_hash": "a9fd877db723",
+    "model": "jev-1.13.0",
+    "input_tokens": 1738,
+    "output_tokens": 303,
+    "sure_sn": 0.425,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 0.0,
+          "engel_yok": 0.0,
+          "bilgi_yok": 1.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 0.0,
+          "engel_yok": 0.0,
+          "bilgi_yok": 1.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.25,
+      "evcil_hayvan": 0.39
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.14,
+      "gastronomi": 0.11,
+      "doga_macera": 0.06,
+      "balayi": 0.09,
+      "ergen_cocuklu_aile": 0.13,
+      "is_seyahati": 0.88,
+      "yalniz_gezgin": 0.77
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.86,
+        "sosyal": 0.68
+      }
+    }
+  },
+  "86": {
+    "isim": "Çemberlitaş Hamamı",
+    "girdi_hash": "e216cbc9da53",
+    "model": "jev-1.13.0",
+    "input_tokens": 1747,
+    "output_tokens": 305,
+    "sure_sn": 0.394,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_var",
+        "confidence": 0.69,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "engel_var": 0.8,
+          "bilgi_yok": 0.2
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_var",
+        "confidence": 0.28,
+        "olasiliklar": {
+          "engel_var": 0.52,
+          "engel_yok": 0.0,
+          "bilgi_yok": 0.48
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.81,
+      "evcil_hayvan": 0.94
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.92,
+      "gastronomi": 0.06,
+      "doga_macera": 0.09,
+      "balayi": 0.49,
+      "ergen_cocuklu_aile": 0.33,
+      "is_seyahati": 0.63,
+      "yalniz_gezgin": 0.585
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.66,
+        "sosyal": 0.51
+      }
+    }
+  },
+  "87": {
+    "isim": "Kılıç Ali Paşa Hamamı",
+    "girdi_hash": "7bc2a46a6adc",
+    "model": "jev-1.13.0",
+    "input_tokens": 1732,
+    "output_tokens": 303,
+    "sure_sn": 0.434,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 0.0,
+          "engel_yok": 0.0,
+          "bilgi_yok": 1.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 0.0,
+          "engel_yok": 0.0,
+          "bilgi_yok": 1.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.54,
+      "evcil_hayvan": 0.92
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.9,
+      "gastronomi": 0.07,
+      "doga_macera": 0.09,
+      "balayi": 0.89,
+      "ergen_cocuklu_aile": 0.26,
+      "is_seyahati": 0.54,
+      "yalniz_gezgin": 0.425
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.64,
+        "sosyal": 0.21
+      }
+    }
+  },
+  "88": {
+    "isim": "Cağaloğlu Hamamı",
+    "girdi_hash": "8d80fb4ee175",
+    "model": "jev-1.13.0",
+    "input_tokens": 1739,
+    "output_tokens": 305,
+    "sure_sn": 0.453,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_var",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 1.0,
+          "engel_yok": 0.0,
+          "bilgi_yok": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_var",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_var": 1.0,
+          "engel_yok": 0.0,
+          "bilgi_yok": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.84,
+      "evcil_hayvan": 0.91
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.94,
+      "gastronomi": 0.06,
+      "doga_macera": 0.09,
+      "balayi": 0.67,
+      "ergen_cocuklu_aile": 0.52,
+      "is_seyahati": 0.59,
+      "yalniz_gezgin": 0.63
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.7,
+        "sosyal": 0.56
+      }
+    }
+  },
+  "89": {
+    "isim": "HodjaPasha Kültür Merkezi",
+    "girdi_hash": "3f6e8e66ab24",
+    "model": "jev-1.13.0",
+    "input_tokens": 1741,
+    "output_tokens": 303,
+    "sure_sn": 0.387,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 0.98,
+        "olasiliklar": {
+          "bilgi_yok": 0.99,
+          "engel_yok": 0.0,
+          "engel_var": 0.01
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 0.99,
+        "olasiliklar": {
+          "bilgi_yok": 1.0,
+          "engel_yok": 0.0,
+          "engel_var": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.82,
+      "evcil_hayvan": 0.9
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.9,
+      "gastronomi": 0.09,
+      "doga_macera": 0.08,
+      "balayi": 0.55,
+      "ergen_cocuklu_aile": 0.32,
+      "is_seyahati": 0.63,
+      "yalniz_gezgin": 0.49
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.79,
+        "sosyal": 0.19
+      }
+    }
+  },
+  "90": {
+    "isim": "Şehir Hatları Boğaz Turu",
+    "girdi_hash": "74841c0446ac",
+    "model": "jev-1.13.0",
+    "input_tokens": 1749,
+    "output_tokens": 307,
+    "sure_sn": 0.405,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_yok",
+        "confidence": 0.71,
+        "olasiliklar": {
+          "bilgi_yok": 0.01,
+          "engel_var": 0.18,
+          "engel_yok": 0.81
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_yok",
+        "confidence": 0.97,
+        "olasiliklar": {
+          "bilgi_yok": 0.01,
+          "engel_var": 0.01,
+          "engel_yok": 0.98
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.36,
+      "evcil_hayvan": 0.26
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.73,
+      "gastronomi": 0.14,
+      "doga_macera": 0.73,
+      "balayi": 0.41,
+      "ergen_cocuklu_aile": 0.62,
+      "is_seyahati": 0.28,
+      "yalniz_gezgin": 0.72
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.88,
+        "sosyal": 0.56
+      }
+    }
+  },
+  "91": {
+    "isim": "Gün Batımı Yat Turu",
+    "girdi_hash": "db5ad4db9123",
+    "model": "jev-1.13.0",
+    "input_tokens": 1735,
+    "output_tokens": 303,
+    "sure_sn": 0.396,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 0.98,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "engel_var": 0.02,
+          "bilgi_yok": 0.98
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 0.35,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "engel_var": 0.43,
+          "bilgi_yok": 0.5700000000000001
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.65,
+      "evcil_hayvan": 0.5
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.3,
+      "gastronomi": 0.42,
+      "doga_macera": 0.63,
+      "balayi": 0.94,
+      "ergen_cocuklu_aile": 0.46,
+      "is_seyahati": 0.47,
+      "yalniz_gezgin": 0.32
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.33,
+        "sosyal": 0.31
+      }
+    }
+  },
+  "92": {
+    "isim": "Isfanbul Tema Parkı",
+    "girdi_hash": "ce11852a8061",
+    "model": "jev-1.13.0",
+    "input_tokens": 1737,
+    "output_tokens": 303,
+    "sure_sn": 0.488,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "bilgi_yok": 1.0,
+          "engel_var": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_yok": 0.0,
+          "bilgi_yok": 1.0,
+          "engel_var": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.2,
+      "evcil_hayvan": 0.78
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.13,
+      "gastronomi": 0.16,
+      "doga_macera": 0.31,
+      "balayi": 0.21,
+      "ergen_cocuklu_aile": 0.91,
+      "is_seyahati": 0.15,
+      "yalniz_gezgin": 0.66
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.77,
+        "sosyal": 0.55
+      }
+    }
+  },
+  "93": {
+    "isim": "KidZania İstanbul",
+    "girdi_hash": "2aa5463f0c43",
+    "model": "jev-1.13.0",
+    "input_tokens": 1735,
+    "output_tokens": 303,
+    "sure_sn": 0.401,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 0.97,
+        "olasiliklar": {
+          "engel_var": 0.01,
+          "bilgi_yok": 0.98,
+          "engel_yok": 0.01
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 0.98,
+        "olasiliklar": {
+          "engel_var": 0.0,
+          "bilgi_yok": 0.99,
+          "engel_yok": 0.01
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.22,
+      "evcil_hayvan": 0.86
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.15,
+      "gastronomi": 0.11,
+      "doga_macera": 0.08,
+      "balayi": 0.07,
+      "ergen_cocuklu_aile": 0.47,
+      "is_seyahati": 0.14,
+      "yalniz_gezgin": 0.37
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.42,
+        "sosyal": 0.32
+      }
+    }
+  },
+  "94": {
+    "isim": "İstanbul Oyuncak Müzesi",
+    "girdi_hash": "ac0c546cd135",
+    "model": "jev-1.13.0",
+    "input_tokens": 1734,
+    "output_tokens": 303,
+    "sure_sn": 0.391,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 0.98,
+        "olasiliklar": {
+          "engel_var": 0.01,
+          "engel_yok": 0.0,
+          "bilgi_yok": 0.99
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 0.98,
+        "olasiliklar": {
+          "engel_var": 0.01,
+          "engel_yok": 0.0,
+          "bilgi_yok": 0.99
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.28,
+      "evcil_hayvan": 0.83
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.83,
+      "gastronomi": 0.18,
+      "doga_macera": 0.1,
+      "balayi": 0.33,
+      "ergen_cocuklu_aile": 0.48,
+      "is_seyahati": 0.38,
+      "yalniz_gezgin": 0.57
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.84,
+        "sosyal": 0.3
+      }
+    }
+  },
+  "95": {
+    "isim": "Sakıp Sabancı Müzesi",
+    "girdi_hash": "8b6b79f75deb",
+    "model": "jev-1.13.0",
+    "input_tokens": 1737,
+    "output_tokens": 307,
+    "sure_sn": 0.402,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_yok",
+        "confidence": 0.9,
+        "olasiliklar": {
+          "engel_yok": 0.93,
+          "bilgi_yok": 0.01,
+          "engel_var": 0.06
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_yok",
+        "confidence": 0.94,
+        "olasiliklar": {
+          "engel_yok": 0.96,
+          "bilgi_yok": 0.01,
+          "engel_var": 0.03
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.26,
+      "evcil_hayvan": 0.86
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.95,
+      "gastronomi": 0.38,
+      "doga_macera": 0.18,
+      "balayi": 0.78,
+      "ergen_cocuklu_aile": 0.52,
+      "is_seyahati": 0.63,
+      "yalniz_gezgin": 0.605
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.87,
+        "sosyal": 0.34
+      }
+    }
+  },
+  "96": {
+    "isim": "Arter",
+    "girdi_hash": "ced2c01e746d",
+    "model": "jev-1.13.0",
+    "input_tokens": 1725,
+    "output_tokens": 307,
+    "sure_sn": 0.397,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_yok": 1.0,
+          "engel_var": 0.0,
+          "bilgi_yok": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_yok",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "engel_yok": 1.0,
+          "bilgi_yok": 0.0,
+          "engel_var": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.13,
+      "evcil_hayvan": 0.83
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.93,
+      "gastronomi": 0.07,
+      "doga_macera": 0.08,
+      "balayi": 0.49,
+      "ergen_cocuklu_aile": 0.66,
+      "is_seyahati": 0.58,
+      "yalniz_gezgin": 0.64
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.88,
+        "sosyal": 0.4
+      }
+    }
+  },
+  "97": {
+    "isim": "Fenerbahçe Parkı",
+    "girdi_hash": "c1e0fcc6a93a",
+    "model": "jev-1.13.0",
+    "input_tokens": 1730,
+    "output_tokens": 307,
+    "sure_sn": 0.5,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_yok",
+        "confidence": 0.99,
+        "olasiliklar": {
+          "engel_yok": 1.0,
+          "engel_var": 0.0,
+          "bilgi_yok": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_yok",
+        "confidence": 0.99,
+        "olasiliklar": {
+          "engel_yok": 0.99,
+          "engel_var": 0.0,
+          "bilgi_yok": 0.01
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.28,
+      "evcil_hayvan": 0.06
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.3,
+      "gastronomi": 0.14,
+      "doga_macera": 0.77,
+      "balayi": 0.67,
+      "ergen_cocuklu_aile": 0.53,
+      "is_seyahati": 0.41,
+      "yalniz_gezgin": 0.69
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.85,
+        "sosyal": 0.53
+      }
+    }
+  },
+  "98": {
+    "isim": "Kuzguncuk",
+    "girdi_hash": "fa289d541d7d",
+    "model": "jev-1.13.0",
+    "input_tokens": 1747,
+    "output_tokens": 305,
+    "sure_sn": 0.451,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_var",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "bilgi_yok": 0.0,
+          "engel_var": 1.0,
+          "engel_yok": 0.0
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_var",
+        "confidence": 1.0,
+        "olasiliklar": {
+          "bilgi_yok": 0.0,
+          "engel_var": 1.0,
+          "engel_yok": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.43,
+      "evcil_hayvan": 0.36
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.91,
+      "gastronomi": 0.52,
+      "doga_macera": 0.29,
+      "balayi": 0.84,
+      "ergen_cocuklu_aile": 0.62,
+      "is_seyahati": 0.4,
+      "yalniz_gezgin": 0.625
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.86,
+        "sosyal": 0.39
+      }
+    }
+  },
+  "99": {
+    "isim": "Galataport",
+    "girdi_hash": "f628501c1519",
+    "model": "jev-1.13.0",
+    "input_tokens": 1730,
+    "output_tokens": 307,
+    "sure_sn": 0.372,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "engel_yok",
+        "confidence": 0.92,
+        "olasiliklar": {
+          "engel_var": 0.06,
+          "bilgi_yok": 0.0,
+          "engel_yok": 0.94
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "engel_yok",
+        "confidence": 0.99,
+        "olasiliklar": {
+          "engel_var": 0.0,
+          "bilgi_yok": 0.0,
+          "engel_yok": 1.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.24,
+      "evcil_hayvan": 0.58
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.84,
+      "gastronomi": 0.63,
+      "doga_macera": 0.35,
+      "balayi": 0.69,
+      "ergen_cocuklu_aile": 0.73,
+      "is_seyahati": 0.61,
+      "yalniz_gezgin": 0.76
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.84,
+        "sosyal": 0.68
+      }
+    }
+  },
+  "100": {
+    "isim": "Feriköy Antika Pazarı",
+    "girdi_hash": "f22909519608",
+    "model": "jev-1.13.0",
+    "input_tokens": 1738,
+    "output_tokens": 303,
+    "sure_sn": 0.39,
+    "erisim_cevaplari": {
+      "yasli": {
+        "secim": "bilgi_yok",
+        "confidence": 0.9,
+        "olasiliklar": {
+          "bilgi_yok": 0.94,
+          "engel_yok": 0.01,
+          "engel_var": 0.05
+        }
+      },
+      "tekerlekli_sandalye": {
+        "secim": "bilgi_yok",
+        "confidence": 0.98,
+        "olasiliklar": {
+          "bilgi_yok": 0.99,
+          "engel_yok": 0.01,
+          "engel_var": 0.0
+        }
+      }
+    },
+    "engel_olasiliklari": {
+      "kucuk_cocuklu_aile": 0.22,
+      "evcil_hayvan": 0.29
+    },
+    "ilgi_olasiliklari": {
+      "kultur_meraklisi": 0.85,
+      "gastronomi": 0.1,
+      "doga_macera": 0.09,
+      "balayi": 0.27,
+      "ergen_cocuklu_aile": 0.57,
+      "is_seyahati": 0.24,
+      "yalniz_gezgin": 0.73
+    },
+    "ilgi_alt_olasiliklari": {
+      "yalniz_gezgin": {
+        "guvenli": 0.77,
+        "sosyal": 0.69
+      }
+    }
+  }
+}

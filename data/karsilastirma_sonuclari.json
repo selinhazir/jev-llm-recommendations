@@ -1,0 +1,170 @@
+{
+  "yasli_kultur": {
+    "A": {
+      "rota": [
+        2,
+        1,
+        3,
+        9
+      ],
+      "aciklama": "This route includes a combination of a quiet museum (Sultanahmet Camii), a historic site with wide flat paths (Topkapı Sarayı), and a viewpoint with an elevator (Galata Kulesi). These venues are spread out to avoid long walks and stairs, making them suitable for your physical needs and preferences. The museums and historic sites offer a mix of cultural experiences without being overly strenuous. ",
+      "input_token": 7022,
+      "sure_sn": 3.57,
+      "ihlal": [
+        1,
+        3,
+        9
+      ],
+      "uyarili": [],
+      "uydurma": []
+    },
+    "B": {
+      "rota": [
+        2,
+        5,
+        14
+      ],
+      "aciklama": "This route includes a historic mosque, a quiet museum, and a museum with elevators for easy access. All venues are in Sultanahmet, which is flat and accessible, and are within walking distance from each other.",
+      "input_token": 845,
+      "sure_sn": 1.79,
+      "ihlal": [],
+      "uyarili": [
+        5
+      ],
+      "uydurma": []
+    }
+  },
+  "tekerlekli_gastronomi": {
+    "A": {
+      "rota": [
+        5,
+        15,
+        10,
+        11
+      ],
+      "aciklama": "This route includes a museum with ancient artifacts, a historic bazaar, a palace with a beautiful view, and a viewpoint offering a panoramic view of the city. All venues are accessible and suitable for someone using a wheelchair. The museum and palace are wheelchair accessible, and the bazaar and viewpoint are wide and flat, making them accessible for visitors with mobility issues. The order of st",
+      "input_token": 7024,
+      "sure_sn": 3.69,
+      "ihlal": [
+        15,
+        11
+      ],
+      "uyarili": [
+        5,
+        10
+      ],
+      "uydurma": []
+    },
+    "B": {
+      "rota": [
+        75,
+        51,
+        60
+      ],
+      "aciklama": "This route includes a street food stop, a long-established restaurant, and a long-established fish and meze restaurant, covering a variety of local flavors and catering to your wheelchair accessibility needs.",
+      "input_token": 898,
+      "sure_sn": 1.64,
+      "ihlal": [],
+      "uyarili": [
+        75,
+        51,
+        60
+      ],
+      "uydurma": []
+    }
+  },
+  "kucuk_cocuk_doga": {
+    "A": {
+      "rota": [
+        12,
+        23,
+        30,
+        47
+      ],
+      "aciklama": "This route includes a mix of indoor and outdoor activities suitable for families with strollers. It starts with the calm and accessible Rumeli Hisarı viewpoint, then visits the peaceful and accessible Atatürk Arboretumu for a quiet break. The route continues with the family-friendly Kilyos Plajı beach, followed by the flat and accessible Kadıköy Sahili waterfront. The route ends with the modern,宽敞",
+      "input_token": 7025,
+      "sure_sn": 3.68,
+      "ihlal": [
+        30
+      ],
+      "uyarili": [],
+      "uydurma": []
+    },
+    "B": {
+      "rota": [
+        36,
+        34,
+        33,
+        97
+      ],
+      "aciklama": "This route includes a combination of an island, a nature park, a waterfront area, and a seaside park, all suitable for families with strollers and young children. The island offers calm walking and cycling, the nature park provides a mix of walking and horse riding, the waterfront area is flat and family-friendly, and the seaside park offers lawns, playgrounds, and a flat walking path.",
+      "input_token": 822,
+      "sure_sn": 4.82,
+      "ihlal": [],
+      "uyarili": [],
+      "uydurma": []
+    }
+  },
+  "evcil_hayvan_yalniz": {
+    "A": {
+      "rota": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "aciklama": "This route includes a mix of cultural, historical, and social venues suitable for meeting people. It starts with Kapalıçarşı (Grand Bazaar) for socializing and bargaining, followed by Süleymaniye Camii (Mosque) for quiet contemplation and a view, and then continues with Galata Kulesi (Tower) for a panoramic view of the city. The final venue, Kız Kulesi (Tower), offers a romantic sunset view and a ",
+      "input_token": 7023,
+      "sure_sn": 37.04,
+      "ihlal": [
+        8,
+        9
+      ],
+      "uyarili": [],
+      "uydurma": []
+    },
+    "B": {
+      "rota": [
+        42,
+        80,
+        83,
+        72
+      ],
+      "aciklama": "This route includes a mix of social and pet-friendly venues. İstiklal Caddesi is a vibrant pedestrian street perfect for people-watching and meeting new people. Lucca is a popular café-bar where you can enjoy a brunch or cocktail. Kadıköy Balık Pazarı Sokağı offers a lively street food experience, and Beşiktaş Kahvaltıcılar Sokağı is a bustling pedestrian street with breakfast places. All venues, ",
+      "input_token": 816,
+      "sure_sn": 11.2,
+      "ihlal": [],
+      "uyarili": [],
+      "uydurma": []
+    }
+  },
+  "butce_yalniz": {
+    "A": {
+      "rota": [
+        6,
+        7,
+        16,
+        20
+      ],
+      "aciklama": "This route includes a historic bazaar (Kapalıçarşı), a historic mosque (Süleymaniye Camii), a museum (Türk ve İslam Eserleri Müzesi) and a palace (Dolmabahçe Sarayı) to provide a mix of cultural experiences and social interactions. All venues are within walking distance and suitable for a student traveler on a tight budget. The bazaar offers a lively atmosphere, the mosque provides a quiet and med",
+      "input_token": 7028,
+      "sure_sn": 46.89,
+      "ihlal": [],
+      "uyarili": [],
+      "uydurma": []
+    },
+    "B": {
+      "rota": [
+        84,
+        42,
+        75
+      ],
+      "aciklama": "This route includes a lively bar and concert venue, a bustling pedestrian street, and a vibrant local market. These venues are perfect for meeting people and enjoying a social atmosphere, all within a budget-friendly one-day itinerary.",
+      "input_token": 852,
+      "sure_sn": 7.27,
+      "ihlal": [],
+      "uyarili": [],
+      "uydurma": []
+    }
+  }
+}

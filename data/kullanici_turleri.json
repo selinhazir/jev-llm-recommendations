@@ -1,0 +1,19 @@
+[
+  {"id": "yasli", "tip": "kisit", "ad": "Elderly traveler", "aciklama": "Traveler aged 65+. Counted as serious problems: many stairs, steep slopes, long walks or standing for more than 1-2 hours, no place to sit, pushing and shoving crowds, difficult access."},
+  {"id": "tekerlekli_sandalye", "tip": "kisit", "ad": "Wheelchair user", "aciklama": "Uses a wheelchair. Counted as serious barriers: stairs without a ramp or elevator, steep slopes, cobblestone or dirt surfaces, narrow passages, boarding a boat or pier via steps."},
+  {"id": "kucuk_cocuklu_aile", "tip": "kisit", "ad": "Family with small kids", "aciklama": "Family traveling with children aged 0-7. Counted as serious problems: no stroller access (stairs, narrow passages), safety risks for children (heights without railings, unprotected water edges), a strict silence rule, alcohol-focused nightlife venues, children not being admitted."},
+  {"id": "evcil_hayvan", "tip": "kisit", "ad": "Pet owner", "aciklama": "Traveling with a dog. Counted as serious problems: pets not allowed inside (museums, mosques, hammams, most indoor restaurants and show venues), an explicit pet ban."},
+  {"id": "genc_butce", "tip": "kisit", "ad": "Young / budget traveler", "aciklama": "Young traveler on a very tight budget. Not asked to Jev: venues with price level 3 or 4 are filtered out by code (filtrele.py)."},
+
+  {"id": "kultur_meraklisi", "tip": "ilgi", "ad": "Culture enthusiast", "aciklama": "Enjoys history, art, architecture, museums and places that tell the city's story."},
+  {"id": "gastronomi", "tip": "ilgi", "ad": "Food lover", "aciklama": "Travels for food: local flavors, long-established restaurants, street food and good restaurants. Places where food is not the main experience do not appeal to them."},
+  {"id": "doga_macera", "tip": "ilgi", "ad": "Nature / adventure lover", "aciklama": "Enjoys the outdoors, hiking, the sea, forests and physical activities. Indoor venues and museums do not appeal to them."},
+  {"id": "balayi", "tip": "ilgi", "ad": "Honeymoon couple", "aciklama": "Enjoys romantic, scenic, intimate places that create special moments. Very crowded, noisy or child-focused places do not appeal to them."},
+  {"id": "ergen_cocuklu_aile", "tip": "ilgi", "ad": "Family with teenagers", "aciklama": "Family traveling with children aged 12-17. Enjoys interactive, exciting and photogenic places. Places that require watching quietly for a long time bore teenagers."},
+  {"id": "is_seyahati", "tip": "ilgi", "ad": "Business traveler", "aciklama": "A businessperson with very little time. Wants places that can be visited in a short time (1-2 hours), central and easy to reach. Half-day or full-day visits, places outside the city or with long queues do not suit them."},
+  {"id": "yalniz_gezgin", "tip": "ilgi", "ad": "Solo traveler", "aciklama": "Travels alone. The ranking score is the average of two sub-questions.",
+   "alt_sorular": [
+     {"id": "guvenli", "soru": "Would a 'Solo traveler' feel safe and comfortable alone at this venue?", "evet": "Yes: going alone is safe and natural; a person on their own does not feel out of place there.", "hayir": "No: going alone could be unsafe, awkward or uncomfortable (e.g. designed for couples or groups, deserted or risky)."},
+     {"id": "sosyal", "soru": "Is this venue a social setting where someone who comes alone can meet and talk to other people?", "evet": "Yes: a lively, shared setting where people mingle and conversations start easily.", "hayir": "No: people stay within their own groups, or the experience is quiet and individual."}
+   ]}
+]

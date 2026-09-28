@@ -1,0 +1,500 @@
+{
+  "seedler": [
+    11,
+    22,
+    33
+  ],
+  "profiller": {
+    "yasli_kultur": {
+      "rastgele_alaka": 0.652,
+      "en_iyi_alaka": 0.967,
+      "sabit_token": 128,
+      "a_orijinal_sira": {
+        "rota": [
+          2,
+          1,
+          3,
+          9
+        ],
+        "ihlal": 3,
+        "alaka": 0.948,
+        "input_token": 7022
+      },
+      "a_karisik": [
+        {
+          "seed": 11,
+          "rota": [
+            5,
+            54,
+            59,
+            88
+          ],
+          "liste_sirasi": [
+            72,
+            10,
+            4,
+            8
+          ],
+          "input_token": 7022,
+          "sure_sn": 46.56,
+          "ihlal": [
+            88
+          ],
+          "uyarili": [
+            5,
+            54,
+            59
+          ],
+          "uydurma": [],
+          "alaka": 0.8
+        },
+        {
+          "seed": 22,
+          "rota": [
+            9,
+            5,
+            63
+          ],
+          "liste_sirasi": [
+            2,
+            4,
+            7
+          ],
+          "input_token": 7022,
+          "sure_sn": 47.73,
+          "ihlal": [
+            9,
+            63
+          ],
+          "uyarili": [
+            5
+          ],
+          "uydurma": [],
+          "alaka": 0.903
+        },
+        {
+          "seed": 33,
+          "rota": [
+            48,
+            11,
+            52,
+            14
+          ],
+          "liste_sirasi": [
+            2,
+            10,
+            5,
+            8
+          ],
+          "input_token": 7022,
+          "sure_sn": 46.15,
+          "ihlal": [
+            11,
+            52
+          ],
+          "uyarili": [],
+          "uydurma": [],
+          "alaka": 0.77
+        }
+      ],
+      "b": {
+        "rota": [
+          2,
+          5,
+          14
+        ],
+        "ihlal": 0,
+        "alaka": 0.95
+      }
+    },
+    "tekerlekli_gastronomi": {
+      "rastgele_alaka": 0.413,
+      "en_iyi_alaka": 0.937,
+      "sabit_token": 130,
+      "a_orijinal_sira": {
+        "rota": [
+          5,
+          15,
+          10,
+          11
+        ],
+        "ihlal": 2,
+        "alaka": 0.09,
+        "input_token": 7024
+      },
+      "a_karisik": [
+        {
+          "seed": 11,
+          "rota": [
+            52,
+            73,
+            54
+          ],
+          "liste_sirasi": [
+            3,
+            2,
+            10
+          ],
+          "input_token": 7024,
+          "sure_sn": 47.82,
+          "ihlal": [
+            52
+          ],
+          "uyarili": [
+            73,
+            54
+          ],
+          "uydurma": [],
+          "alaka": 0.88
+        },
+        {
+          "seed": 22,
+          "rota": [
+            63,
+            75,
+            6
+          ],
+          "liste_sirasi": [
+            7,
+            13,
+            1
+          ],
+          "input_token": 7024,
+          "sure_sn": 55.02,
+          "ihlal": [
+            6
+          ],
+          "uyarili": [
+            63,
+            75
+          ],
+          "uydurma": [],
+          "alaka": 0.69
+        },
+        {
+          "seed": 33,
+          "rota": [
+            52,
+            77,
+            76,
+            75
+          ],
+          "liste_sirasi": [
+            5,
+            9,
+            30,
+            29
+          ],
+          "input_token": 7024,
+          "sure_sn": 59.44,
+          "ihlal": [
+            52
+          ],
+          "uyarili": [
+            77,
+            76,
+            75
+          ],
+          "uydurma": [],
+          "alaka": 0.892
+        }
+      ],
+      "b": {
+        "rota": [
+          75,
+          51,
+          60
+        ],
+        "ihlal": 0,
+        "alaka": 0.927
+      }
+    },
+    "kucuk_cocuk_doga": {
+      "rastgele_alaka": 0.298,
+      "en_iyi_alaka": 0.937,
+      "sabit_token": 131,
+      "a_orijinal_sira": {
+        "rota": [
+          12,
+          23,
+          30,
+          47
+        ],
+        "ihlal": 1,
+        "alaka": 0.36,
+        "input_token": 7025
+      },
+      "a_karisik": [
+        {
+          "seed": 11,
+          "rota": [
+            48,
+            4,
+            35
+          ],
+          "liste_sirasi": [
+            6,
+            69,
+            16
+          ],
+          "input_token": 7025,
+          "sure_sn": 57.99,
+          "ihlal": [
+            4,
+            35
+          ],
+          "uyarili": [],
+          "uydurma": [],
+          "alaka": 0.363
+        },
+        {
+          "seed": 22,
+          "rota": [
+            92,
+            44,
+            63,
+            36
+          ],
+          "liste_sirasi": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "input_token": 7025,
+          "sure_sn": 49.01,
+          "ihlal": [
+            44
+          ],
+          "uyarili": [],
+          "uydurma": [],
+          "alaka": 0.385
+        },
+        {
+          "seed": 33,
+          "rota": [
+            49,
+            46,
+            89,
+            31
+          ],
+          "liste_sirasi": [
+            6,
+            3,
+            13,
+            7
+          ],
+          "input_token": 7025,
+          "sure_sn": 48.88,
+          "ihlal": [
+            89
+          ],
+          "uyarili": [],
+          "uydurma": [],
+          "alaka": 0.412
+        }
+      ],
+      "b": {
+        "rota": [
+          36,
+          34,
+          33,
+          97
+        ],
+        "ihlal": 0,
+        "alaka": 0.835
+      }
+    },
+    "evcil_hayvan_yalniz": {
+      "rastgele_alaka": 0.618,
+      "en_iyi_alaka": 0.853,
+      "sabit_token": 129,
+      "a_orijinal_sira": {
+        "rota": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "ihlal": 2,
+        "alaka": 0.645,
+        "input_token": 7023
+      },
+      "a_karisik": [
+        {
+          "seed": 11,
+          "rota": [
+            73,
+            88,
+            52,
+            85
+          ],
+          "liste_sirasi": [
+            2,
+            8,
+            3,
+            25
+          ],
+          "input_token": 7023,
+          "sure_sn": 73.97,
+          "ihlal": [
+            88,
+            52
+          ],
+          "uyarili": [],
+          "uydurma": [],
+          "alaka": 0.682
+        },
+        {
+          "seed": 22,
+          "rota": [
+            92,
+            63,
+            6,
+            13
+          ],
+          "liste_sirasi": [
+            5,
+            7,
+            1,
+            20
+          ],
+          "input_token": 7023,
+          "sure_sn": 52.53,
+          "ihlal": [
+            92,
+            63,
+            13
+          ],
+          "uyarili": [],
+          "uydurma": [],
+          "alaka": 0.652
+        },
+        {
+          "seed": 33,
+          "rota": [
+            48,
+            46,
+            89,
+            17
+          ],
+          "liste_sirasi": [
+            2,
+            3,
+            13,
+            12
+          ],
+          "input_token": 7023,
+          "sure_sn": 47.95,
+          "ihlal": [
+            89
+          ],
+          "uyarili": [],
+          "uydurma": [],
+          "alaka": 0.623
+        }
+      ],
+      "b": {
+        "rota": [
+          42,
+          80,
+          83,
+          72
+        ],
+        "ihlal": 0,
+        "alaka": 0.789
+      }
+    },
+    "butce_yalniz": {
+      "rastgele_alaka": 0.618,
+      "en_iyi_alaka": 0.853,
+      "sabit_token": 134,
+      "a_orijinal_sira": {
+        "rota": [
+          6,
+          7,
+          16,
+          20
+        ],
+        "ihlal": 0,
+        "alaka": 0.654,
+        "input_token": 7028
+      },
+      "a_karisik": [
+        {
+          "seed": 11,
+          "rota": [
+            83,
+            73,
+            52
+          ],
+          "liste_sirasi": [
+            1,
+            2,
+            3
+          ],
+          "input_token": 7028,
+          "sure_sn": 50.3,
+          "ihlal": [
+            52
+          ],
+          "uyarili": [],
+          "uydurma": [],
+          "alaka": 0.702
+        },
+        {
+          "seed": 22,
+          "rota": [
+            92,
+            63,
+            44
+          ],
+          "liste_sirasi": [
+            5,
+            7,
+            6
+          ],
+          "input_token": 7028,
+          "sure_sn": 49.28,
+          "ihlal": [
+            92
+          ],
+          "uyarili": [],
+          "uydurma": [],
+          "alaka": 0.65
+        },
+        {
+          "seed": 33,
+          "rota": [
+            80,
+            49,
+            17
+          ],
+          "liste_sirasi": [
+            1,
+            6,
+            12
+          ],
+          "input_token": 7028,
+          "sure_sn": 47.1,
+          "ihlal": [
+            80,
+            49
+          ],
+          "uyarili": [],
+          "uydurma": [],
+          "alaka": 0.633
+        }
+      ],
+      "b": {
+        "rota": [
+          84,
+          42,
+          75
+        ],
+        "ihlal": 0,
+        "alaka": 0.823
+      }
+    }
+  }
+}

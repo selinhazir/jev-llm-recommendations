@@ -1,0 +1,182 @@
+[
+  {
+    "servis": "ChatGPT",
+    "model": "GPT-5.6 Luna",
+    "profil": "wheelchair_food",
+    "tip": "A_full_list",
+    "sure_sn": 8.0,
+    "cevap": "{\"route\":[54,53,73],\"explanation\":\"Tarihi Sultanahmet Köftecisi offers a long-established local classic; Hamdi Restoran adds kebab and has an elevator for wheelchair access; Ortaköy Kumpircileri provides a traditional street-food stop, though eating is mainly standing or by the water.\"}",
+    "prompt_dosyasi": "prompts/wheelchair_food__A_full_list.txt",
+    "zaman": "2026-09-28T15:38:59"
+  },
+  {
+    "servis": "ChatGPT",
+    "model": "GPT-5.6 Luna",
+    "profil": "wheelchair_food",
+    "tip": "B_jev_filtered",
+    "sure_sn": 4.0,
+    "cevap": "{\"route\":[53,65,62,51],\"explanation\":\"A compact food-focused route through Eminönü, Karaköy, and Beyoğlu, ending in Kadıköy. Hamdi has an elevator, while accessibility at the other venues is not verified, so wheelchair access should be confirmed before visiting.\"}",
+    "prompt_dosyasi": "prompts/wheelchair_food__B_jev_filtered.txt",
+    "zaman": "2026-09-28T15:41:38"
+  },
+  {
+    "servis": "ChatGPT",
+    "model": "GPT-5.6 Luna",
+    "profil": "wheelchair_food",
+    "tip": "C_no_list",
+    "sure_sn": 9.0,
+    "cevap": "{\"route\":[\"Tarihi Hocapaşa Pidecisi\",\"Hamdi Restaurant - Eminönü\",\"Gülhane Şark Sofrası\",\"Mandabatmaz\"],\"explanation\":\"A compact Historic Peninsula-to-Beyoğlu food route: start with long-established pide at Tarihi Hocapaşa Pidecisi (operating since 1964 and listed as wheelchair accessible), continue to Hamdi in Eminönü for classic kebabs (wheelchair-accessible entrance/seating/restroom), then Gülhane Şark Sofrası for traditional Turkish/Ottoman-style dishes. Finish with Turkish coffee at Mandabatmaz in Beyoğlu, which is reported to have step-free entry, though its interior is narrow. Because Istanbul's historic streets can be uneven or cobbled, use short taxi transfers between stops where needed and confirm door width/restroom details directly with each venue before going. ([Mekanoyla][1])\"}",
+    "prompt_dosyasi": "prompts/wheelchair_food__C_no_list.txt",
+    "zaman": "2026-09-28T15:43:02"
+  },
+  {
+    "servis": "ChatGPT",
+    "model": "GPT-5.6 Luna",
+    "profil": "small_kids_nature",
+    "tip": "A_full_list",
+    "sure_sn": 7.0,
+    "cevap": "{\"route\":[23,29,33,97],\"explanation\":\"A stroller-friendly, outdoor-focused day: start with Miniatürk's flat paths and playground, relax in Gülhane Park's wide flat paths, then enjoy the flat seaside promenade and playgrounds at Caddebostan Sahili, finishing with a quieter seaside walk and picnic at Fenerbahçe Parkı.\"}",
+    "prompt_dosyasi": "prompts/small_kids_nature__A_full_list.txt",
+    "zaman": "2026-09-28T15:44:34"
+  },
+  {
+    "servis": "ChatGPT",
+    "model": "GPT-5.6 Luna",
+    "profil": "small_kids_nature",
+    "tip": "B_jev_filtered",
+    "sure_sn": 6.88,
+    "cevap": "{\"route\":[33,97,31,27],\"explanation\":\"Flat, stroller-friendly outdoor route: start with the long seaside promenade and playgrounds at Caddebostan, continue to Fenerbahçe Parkı for lawns and a relaxed nature break, then Maçka Demokrasi Parkı for active time, finishing at Emirgan Korusu for greenery, ponds and picnic areas.\"}",
+    "prompt_dosyasi": "prompts/small_kids_nature__B_jev_filtered.txt",
+    "zaman": "2026-09-28T15:45:38"
+  },
+  {
+    "servis": "ChatGPT",
+    "model": "GPT-5.6 Luna",
+    "profil": "small_kids_nature",
+    "tip": "C_no_list",
+    "sure_sn": 7.13,
+    "cevap": "{\"route\":[\"Emirgan Grove\",\"Atatürk Urban Forest\",\"Atatürk Arboretum\",\"Belgrad Forest\"],\"explanation\":\"A north-Istanbul nature day with relatively easy outdoor walking, playgrounds and picnic opportunities. Start at Emirgan Grove for a gentle morning walk and play, continue to Atatürk Urban Forest for active trails and ponds, then visit Atatürk Arboretum for a quieter nature walk, finishing with a picnic and easy forest walking in Belgrad Forest. ([visit.istanbul][1])\"}",
+    "prompt_dosyasi": "prompts/small_kids_nature__C_no_list.txt",
+    "zaman": "2026-09-28T15:46:34"
+  },
+  {
+    "servis": "ChatGPT",
+    "model": "GPT-5.6 Luna",
+    "profil": "elderly_culture",
+    "tip": "A_full_list",
+    "sure_sn": 8.1,
+    "cevap": "{\"route\":[1,5,29],\"explanation\":\"All three venues are in Sultanahmet and can be visited with relatively little travel between them. Ayasofya offers major historic interest without requiring the upper gallery, İstanbul Arkeoloji Müzeleri provides a museum visit, and Gülhane Parkı offers wide flat paths, benches, and a restful break. This avoids venues specifically described as requiring steep slopes, long walks, or significant stairs.\"}",
+    "prompt_dosyasi": "prompts/elderly_culture__A_full_list.txt",
+    "zaman": "2026-09-28T15:47:41"
+  },
+  {
+    "servis": "ChatGPT",
+    "model": "GPT-5.6 Luna",
+    "profil": "elderly_culture",
+    "tip": "B_jev_filtered",
+    "sure_sn": 3.8,
+    "cevap": "{\"route\":[13,14,10,5],\"explanation\":\"A museum-focused route prioritizing accessibility and minimizing walking: İstanbul Modern is fully accessible with elevators, Pera Müzesi has elevators, Dolmabahçe has flat gardens, and İstanbul Arkeoloji Müzeleri offers a strong historic collection. Accessibility at the Archaeology Museums is not verified, so consider checking access arrangements in advance.\"}",
+    "prompt_dosyasi": "prompts/elderly_culture__B_jev_filtered.txt",
+    "zaman": "2026-09-28T15:48:54"
+  },
+  {
+    "servis": "ChatGPT",
+    "model": "GPT-5.6 Luna",
+    "profil": "elderly_culture",
+    "tip": "C_no_list",
+    "sure_sn": 7.93,
+    "cevap": "{\"route\":[\"Ayasofya-i Kebir Cami-i Şerifi\",\"Türk ve İslam Eserleri Müzesi\",\"İstanbul Arkeoloji Müzeleri\"],\"explanation\":\"A compact historic-centre route with short transfers: start at Hagia Sophia, then the nearby Museum of Turkish and Islamic Arts, and finish at the Archaeological Museums. Use taxis between stops rather than walking, take frequent seated breaks, and avoid Topkapı Palace because its large grounds can require substantially more walking and some stairs. The Archaeological Museums are open daily; current official information lists 09:00–18:45. ([muze.gov.tr][1])\"}",
+    "prompt_dosyasi": "prompts/elderly_culture__C_no_list.txt",
+    "zaman": "2026-09-28T15:50:06"
+  },
+  {
+    "servis": "Claude",
+    "model": "Claude Opus 5.5",
+    "profil": "wheelchair_food",
+    "tip": "A_full_list",
+    "sure_sn": 11.56,
+    "cevap": "```json\n{\"route\": [54, 74, 53, 65], \"explanation\": \"A flat, compact food route along the T1 tram line, which is wheelchair-accessible, avoiding places with stairs or steep hills such as Pandeli, Vefa Bozacısı and Van Kahvaltı Evi. Start with lunch at Tarihi Sultanahmet Köftecisi, serving the same meatballs since 1920 in a simple, easy-to-enter setting. Then head down to the flat Eminönü shore for balık ekmek (grilled mackerel sandwiches) from the boats, Istanbul's classic street food; you can eat from your wheelchair by the water instead of on the low stools. Next door, Hamdi Restoran has an elevator up to its Golden Horn terrace for pistachio kebab and lahmacun. Finish by crossing the flat Galata Bridge to Karaköy Güllüoğlu for Istanbul's most famous pistachio baklava. Avoid weekends and peak hours in Eminönü, when crowds make moving around harder.\"}\n```",
+    "prompt_dosyasi": "prompts/wheelchair_food__A_full_list.txt",
+    "zaman": "2026-09-28T15:58:09"
+  },
+  {
+    "servis": "Claude",
+    "model": "Claude Opus 5.5",
+    "profil": "wheelchair_food",
+    "tip": "B_jev_filtered",
+    "sure_sn": 9.68,
+    "cevap": "{\"route\": [65, 53, 73], \"explanation\": \"Start in Karaköy with su böreği and pistachio baklava at Karaköy Güllüoğlu, a famous long-established shop on flat waterfront ground. Cross the flat Galata Bridge to Hamdi Restoran in Eminönü for pistachio kebab and lahmacun. It's the only venue on the list confirmed to have an elevator, which gives step-free access to its Golden Horn terrace. End along the flat Bosphorus shoreline in Ortaköy with kumpir street food by the water. I skipped the Kadıköy fish market, Çiya and Zübeyir because of narrow, sloped, crowded streets and cramped interiors, and Tarabya because it's far away. Güllüoğlu and the Ortaköy stalls have no verified accessibility, so please call ahead or check entrances on arrival, and visit Güllüoğlu early to avoid crowds.\"}",
+    "prompt_dosyasi": "prompts/wheelchair_food__B_jev_filtered.txt",
+    "zaman": "2026-09-28T15:59:30"
+  },
+  {
+    "servis": "Claude",
+    "model": "Claude Opus 5.5",
+    "profil": "wheelchair_food",
+    "tip": "C_no_list",
+    "sure_sn": 12.81,
+    "cevap": "{\"route\": [\"Karaköy Güllüoğlu\", \"Eminönü Balık Ekmek boats (Galata Bridge waterfront)\", \"Tarihi Sultanahmet Köftecisi Selim Usta\", \"Hafız Mustafa 1864 (Sultanahmet)\"], \"explanation\": \"This route stays on the flatter historic waterfront and avoids the steep, cobbled hills of Galata and Beyoğlu. Start with baklava and börek at Karaköy Güllüoğlu, a baklava shop open since 1949. Then roll along the level Karaköy–Eminönü shoreline across the Galata Bridge to get a classic balık ekmek (fish sandwich), which you order from the quayside stands. From Eminönü, take the low-floor T1 tram, which has step-free boarding, to Sultanahmet for grilled meatballs at Selim Usta, open since 1920. Finish with Turkish delight and desserts at Hafız Mustafa 1864 nearby. Some older venues have a small step or tight seating, so call ahead to confirm entrance access and ask for a ground-floor table.\"}",
+    "prompt_dosyasi": "prompts/wheelchair_food__C_no_list.txt",
+    "zaman": "2026-09-28T16:01:06"
+  },
+  {
+    "servis": "Claude",
+    "model": "Claude Opus 5.5",
+    "profil": "small_kids_nature",
+    "tip": "A_full_list",
+    "sure_sn": 9.25,
+    "cevap": "```json\n{\"route\": [33, 97, 32], \"explanation\": \"An all-outdoor day on the Kadıköy shoreline, where every stop has flat paths suited to a stroller. Start at Caddebostan Sahili, whose kilometers-long promenade has cycling and walking lanes, playgrounds and lawns where the kids can run and play. Next, go to nearby Fenerbahçe Parkı for a picnic lunch on the seaside lawns around the lighthouse, with flat walking paths throughout. End at Moda Sahili for a relaxed stroll on the flat seaside promenade, with ice cream shops and cafes nearby for a treat at sunset. The three stops are close together, so the day avoids long transfers, and it skips hilly, cobblestoned or stair-heavy places like Belgrad Ormanı's dirt trails, Büyükada's steep climbs and Emirgan's sloped paths.\"}\n```",
+    "prompt_dosyasi": "prompts/small_kids_nature__A_full_list.txt",
+    "zaman": "2026-09-28T16:02:18"
+  },
+  {
+    "servis": "Claude",
+    "model": "Claude Opus 5.5",
+    "profil": "small_kids_nature",
+    "tip": "B_jev_filtered",
+    "sure_sn": 5.91,
+    "cevap": "{\"route\": [20, 97, 33], \"explanation\": \"This route stays on the Asian side and uses only stroller-friendly spots, avoiding hilly or sloped places like Yıldız, Fethi Paşa, Emirgan and Heybeliada. Start the morning at Büyük Çamlıca Tepesi, where you can drive to the top and let the kids run on the lawns while you enjoy the view and tea. Then head to Fenerbahçe Parkı for a picnic lunch on flat seaside paths by the lighthouse. Finish with Caddebostan Sahili, which is right next door. Its flat promenade has playgrounds, lawns and cycling lanes for an active afternoon by the sea. The stops are close together, which keeps travel short for the little ones.\"}",
+    "prompt_dosyasi": "prompts/small_kids_nature__B_jev_filtered.txt",
+    "zaman": "2026-09-28T16:03:13"
+  },
+  {
+    "servis": "Claude",
+    "model": "Claude Opus 5.5",
+    "profil": "small_kids_nature",
+    "tip": "C_no_list",
+    "sure_sn": 9.0,
+    "cevap": "{\"route\": [\"Belgrad Forest (Neşet Suyu walking path)\", \"Emirgan Park\", \"Bebek Park and Bebek seaside promenade\"], \"explanation\": \"Start the morning at Belgrad Forest, where the wide, mostly flat, packed-gravel path around Neşet Suyu works for a stroller and gives the kids shade, fresh air, and room to run. Then drive about 20–25 minutes to Emirgan Park for lunch and the afternoon. Its paved paths, big lawns, ponds with ducks, and playgrounds suit 3- and 5-year-olds, and the park cafés (Beyaz, Sarı, and Pembe Köşk) have family-friendly food. Some slopes are steep, so the lower paths near the entrances are the easiest with a stroller. End the day with a gentle, flat seaside walk along the Bebek promenade by the Bosphorus, where there is a small park and space to watch the boats. The route skips steep stairs and historic sites that are hard with a stroller, and the drives between stops are short, which leaves time for naps.\"}",
+    "prompt_dosyasi": "prompts/small_kids_nature__C_no_list.txt",
+    "zaman": "2026-09-28T16:04:07"
+  },
+  {
+    "servis": "Claude",
+    "model": "Claude Opus 5.5",
+    "profil": "elderly_culture",
+    "tip": "A_full_list",
+    "sure_sn": 8.52,
+    "cevap": "```json\n{\"route\": [2, 54, 5, 29], \"explanation\": \"Everything is in Sultanahmet, so walking between stops is short. Start at the Blue Mosque (Sultanahmet Camii), which has a wide, flat courtyard and famous İznik tiles. Have lunch nearby at Tarihi Sultanahmet Köftecisi, which is simple and quick. Then visit the quiet Istanbul Archaeology Museums, home to the Alexander Sarcophagus. Finish right next door in Gülhane Park, where flat paths, benches and a tea garden with Bosphorus views let you rest. This route leaves out Topkapı Palace (a lot of walking and stairs), the Basilica Cistern (a long staircase at the entrance) and the Museum of Turkish and Islamic Arts (stairs at the entrance).\"}\n```",
+    "prompt_dosyasi": "prompts/elderly_culture__A_full_list.txt",
+    "zaman": "2026-09-28T16:05:31"
+  },
+  {
+    "servis": "Claude",
+    "model": "Claude Opus 5.5",
+    "profil": "elderly_culture",
+    "tip": "B_jev_filtered",
+    "sure_sn": 9.71,
+    "cevap": "{\"route\": [2, 13, 14], \"explanation\": \"This route avoids long walks and stairs by choosing only venues that are verified accessible or described as flat. Start in the morning at the historic Blue Mosque (Sultanahmet Camii), whose courtyard is wide and flat; remember modest clothing and slip-on shoes, since you'll remove them. Then take a short taxi or tram ride to İstanbul Modern in Karaköy, which is fully accessible with elevators. Its waterfront terrace restaurant is a good place for a long, restful lunch. Finish with a short taxi ride up to the quiet, mid-sized Pera Museum, which has elevators and holds the historic Tortoise Trainer painting. Travel between stops is kept short, and the venues with unverified accessibility, such as the Archaeology Museum, Beylerbeyi Palace and Asitane, are left out. Dolmabahçe Palace is also skipped because its guided-only tour involves a lot of walking inside.\"}",
+    "prompt_dosyasi": "prompts/elderly_culture__B_jev_filtered.txt",
+    "zaman": "2026-09-28T16:06:53"
+  },
+  {
+    "servis": "Claude",
+    "model": "Claude Opus 5.5",
+    "profil": "elderly_culture",
+    "tip": "C_no_list",
+    "sure_sn": 11.1,
+    "cevap": "{\"route\": [\"Hagia Sophia\", \"Sultan Ahmed Mosque (Blue Mosque)\", \"Hippodrome of Constantinople (Sultanahmet Square)\", \"Pera Museum\"], \"explanation\": \"Start the morning at Hagia Sophia and go early to avoid long queues. The route uses a gently sloping ramp rather than stairs, and you can rest in the courtyard. The Blue Mosque is only about 200 meters away across flat, paved ground, and you can take your time inside. Next, stroll through the Hippodrome right beside it, where you'll find the Obelisk of Theodosius and the Serpent Column along a level path with many benches and cafés for a relaxed lunch. In the afternoon, take a short taxi ride (about 15 minutes) to the Pera Museum in Beyoğlu. It has elevators to every floor, seating in the galleries, and famous works such as Osman Hamdi Bey's 'The Tortoise Trainer'. I left out the Basilica Cistern because of its many steps, and Topkapı and Dolmabahçe Palaces because they involve long walks and stairs.\"}",
+    "prompt_dosyasi": "prompts/elderly_culture__C_no_list.txt",
+    "zaman": "2026-09-28T16:07:50"
+  }
+]

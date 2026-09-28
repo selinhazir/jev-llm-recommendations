@@ -1,0 +1,17 @@
+# Gizli anahtarlar (TYPESAFE_API_KEY burada) — asla git'e eklenmemeli
+.env
+
+# Python geçici dosyaları
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# app.py "Run live" ile oluşan geçici önbellek (resmi deney sonucu değil)
+data/rota_kayitlari.json
+
+# Çeviri öncesi Türkçe yedek (eski proje adı geçiyor); yalnızca yerel, repoya girmez
+backup_tr/

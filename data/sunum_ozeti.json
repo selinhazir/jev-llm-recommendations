@@ -1,0 +1,178 @@
+{
+  "services": {
+    "ChatGPT | GPT-5.6 Luna": {
+      "rows": {
+        "A": {
+          "runs": 3,
+          "avg_input_tokens": 7010.666666666667,
+          "avg_time_s": 7.7,
+          "violations": 1,
+          "avg_relevance": 0.7861111111111111,
+          "cost_per_request": 0.0015069333333333334,
+          "monthly_cost": 452.08000000000004,
+          "suggestions": 10,
+          "off_catalog": null,
+          "not_in_list": 0
+        },
+        "B": {
+          "runs": 3,
+          "avg_input_tokens": 842.0,
+          "avg_time_s": 4.8933333333333335,
+          "violations": 0,
+          "avg_relevance": 0.8808333333333334,
+          "cost_per_request": 0.0002672,
+          "monthly_cost": 80.16,
+          "suggestions": 12,
+          "off_catalog": null,
+          "not_in_list": 0
+        },
+        "C": {
+          "runs": 3,
+          "avg_input_tokens": 93.66666666666667,
+          "avg_time_s": 8.02,
+          "violations": 4,
+          "avg_relevance": 0.8077777777777778,
+          "cost_per_request": 0.00020433333333333336,
+          "monthly_cost": 61.300000000000004,
+          "suggestions": 11,
+          "off_catalog": 3,
+          "not_in_list": null
+        }
+      },
+      "b_vs_a": {
+        "tokens_pct": -87.98972993533664,
+        "time_pct": -36.45021645021645,
+        "time_s": -2.8066666666666666,
+        "monthly_cost_pct": -82.26862502211999,
+        "monthly_cost_usd": -371.9200000000001
+      }
+    },
+    "Claude | Claude Opus 5.5": {
+      "rows": {
+        "A": {
+          "runs": 3,
+          "avg_input_tokens": 7010.666666666667,
+          "avg_time_s": 9.776666666666667,
+          "violations": 1,
+          "avg_relevance": 0.8152777777777778,
+          "cost_per_request": 0.03194266666666667,
+          "monthly_cost": 9582.800000000001,
+          "suggestions": 11,
+          "off_catalog": null,
+          "not_in_list": 0
+        },
+        "B": {
+          "runs": 3,
+          "avg_input_tokens": 842.0,
+          "avg_time_s": 8.433333333333334,
+          "violations": 0,
+          "avg_relevance": 0.8644444444444446,
+          "cost_per_request": 0.007294666666666667,
+          "monthly_cost": 2188.4,
+          "suggestions": 9,
+          "off_catalog": null,
+          "not_in_list": 0
+        },
+        "C": {
+          "runs": 3,
+          "avg_input_tokens": 93.66666666666667,
+          "avg_time_s": 10.97,
+          "violations": 4,
+          "avg_relevance": 0.8786111111111111,
+          "cost_per_request": 0.005007999999999999,
+          "monthly_cost": 1502.3999999999996,
+          "suggestions": 11,
+          "off_catalog": 1,
+          "not_in_list": null
+        }
+      },
+      "b_vs_a": {
+        "tokens_pct": -87.98972993533664,
+        "time_pct": -13.740197749744292,
+        "time_s": -1.3433333333333337,
+        "monthly_cost_pct": -77.16325082439371,
+        "monthly_cost_usd": -7394.4000000000015
+      }
+    }
+  },
+  "assumptions": {
+    "requests_per_day": 10000,
+    "days_per_month": 30
+  },
+  "jev_labeling": {
+    "calls": 100,
+    "questions_per_call": 12,
+    "total_input_tokens": 173742,
+    "avg_tokens_per_call": 1737.42,
+    "avg_time_s": 0.43015000000000003,
+    "min_time_s": 0.364,
+    "max_time_s": 0.614,
+    "total_cost_usd": 0.007297164000000001,
+    "price_per_m_input": 0.042
+  },
+  "accuracy": {
+    "Elderly traveler": {
+      "correct": 17,
+      "total": 20,
+      "accuracy": 0.85,
+      "safe_errors": 3,
+      "unsafe_errors": 0,
+      "question": "choice"
+    },
+    "Wheelchair user": {
+      "correct": 17,
+      "total": 20,
+      "accuracy": 0.85,
+      "safe_errors": 2,
+      "unsafe_errors": 1,
+      "question": "choice"
+    },
+    "Family with small kids": {
+      "correct": 14,
+      "total": 20,
+      "accuracy": 0.7,
+      "safe_errors": 6,
+      "unsafe_errors": 0,
+      "question": "noul"
+    },
+    "Pet owner": {
+      "correct": 20,
+      "total": 20,
+      "accuracy": 1.0,
+      "safe_errors": 0,
+      "unsafe_errors": 0,
+      "question": "noul"
+    }
+  },
+  "data_gaps": {
+    "Elderly traveler": {
+      "barrier_present": 34,
+      "no_barrier": 22,
+      "no_information": 44,
+      "no_information_pct": 44.0
+    },
+    "Wheelchair user": {
+      "barrier_present": 28,
+      "no_barrier": 21,
+      "no_information": 51,
+      "no_information_pct": 51.0
+    }
+  },
+  "local_comparison": {
+    "model": "qwen2.5:3b (local)",
+    "profiles": 5,
+    "avg_tokens_A": 7024.4,
+    "avg_tokens_B": 846.6,
+    "token_savings_pct": 87.94772507260406,
+    "violations_A": 8,
+    "violations_B": 0,
+    "shuffled_runs": 15,
+    "shuffled_violation_rate_pct": 41.509433962264154,
+    "shuffled_first10_pct": 77.35849056603773,
+    "tokens_per_venue": 68.94,
+    "scale_venues": 300000,
+    "scale_tokens": 20682000.0,
+    "scale_x_context": 20.682,
+    "venues_fit_in_context": 14505.366985784742
+  }
+}

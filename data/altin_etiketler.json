@@ -1,0 +1,222 @@
+[
+  {
+    "id": 3,
+    "isim": "Topkapı Sarayı",
+    "kategori": "museum",
+    "aciklama": "Palace of the Ottoman sultans. Large courtyards, the Harem, the treasury and terraces with Bosphorus views. A full visit takes 3-4 hours, with a lot of walking and some stairs.",
+    "yasli": "engel_var",
+    "tekerlekli_sandalye": "engel_var",
+    "kucuk_cocuk": false,
+    "evcil_hayvan": true,
+    "etiket_notu": "Merdiven ve uzun yürüme açıkça yazıyor."
+  },
+  {
+    "id": 9,
+    "isim": "Galata Kulesi",
+    "kategori": "viewpoint",
+    "aciklama": "Medieval stone tower with a 360-degree city view from the narrow balcony at the top. There is an elevator, but the last floors are climbed by stairs. Long queues at sunset.",
+    "yasli": "engel_var",
+    "tekerlekli_sandalye": "engel_var",
+    "kucuk_cocuk": false,
+    "evcil_hayvan": true,
+    "etiket_notu": "ZOR VAKA: Hem asansör (uygunluk) hem merdiven (engel) yazıyor; kural gereği engel_var. Küçük çocuk için dar balkon ve kuyruk rahatsız edici ama ciddi engel sayılmadı."
+  },
+  {
+    "id": 10,
+    "isim": "Dolmabahçe Sarayı",
+    "kategori": "museum",
+    "aciklama": "Magnificent 19th-century palace on the Bosphorus; a giant crystal chandelier and the room where Atatürk died. Guided tours only, no photography inside. Its gardens are flat and well kept.",
+    "yasli": "engel_yok",
+    "tekerlekli_sandalye": "engel_yok",
+    "kucuk_cocuk": false,
+    "evcil_hayvan": true,
+    "etiket_notu": "ZOR VAKA: Uygunluk bilgisi sadece bahçe için var, sarayın içi hakkında bilgi yok. Açıklamada engel geçmediği ve uygunluk bilgisi olduğu için engel_yok seçildi; bilgi_yok da savunulabilir."
+  },
+  {
+    "id": 33,
+    "isim": "Caddebostan Sahili",
+    "kategori": "waterfront",
+    "aciklama": "Kilometers-long flat seaside promenade: cycling and walking lanes, playgrounds, lawns. Very suitable for families and dog owners.",
+    "yasli": "engel_yok",
+    "tekerlekli_sandalye": "engel_yok",
+    "kucuk_cocuk": false,
+    "evcil_hayvan": false,
+    "etiket_notu": "Düz yol, oyun parkı ve köpek sahiplerine uygunluk açıkça yazıyor."
+  },
+  {
+    "id": 46,
+    "isim": "Bebek Sahili",
+    "kategori": "neighborhood walk",
+    "aciklama": "Upscale neighborhood with chic cafes and a Bosphorus promenade. The flat waterfront between Bebek and Rumeli Hisarı is loved by runners and dog owners.",
+    "yasli": "engel_yok",
+    "tekerlekli_sandalye": "engel_yok",
+    "kucuk_cocuk": false,
+    "evcil_hayvan": false,
+    "etiket_notu": "Düz sahil ve köpek sahiplerince sevildiği açıkça yazıyor."
+  },
+  {
+    "id": 51,
+    "isim": "Çiya Sofrası",
+    "kategori": "restaurant",
+    "aciklama": "Legendary restaurant serving forgotten regional dishes from across Anatolia. You fill your plate at the counter; the menu changes daily. Small and crowded.",
+    "yasli": "bilgi_yok",
+    "tekerlekli_sandalye": "bilgi_yok",
+    "kucuk_cocuk": false,
+    "evcil_hayvan": true,
+    "etiket_notu": "ZOR VAKA: 'Küçük ve kalabalık' dar alan ima ediyor ama somut bir fiziksel engel (merdiven, basamak) yazmıyor; bilgi_yok seçildi. Evcil hayvan için küçük ve kalabalık kapalı lokanta sağduyuyla engel sayıldı."
+  },
+  {
+    "id": 4,
+    "isim": "Yerebatan Sarnıcı",
+    "kategori": "historic site",
+    "aciklama": "Underground Byzantine cistern; dim lighting, walkways above the water and the Medusa heads. A long staircase leads down at the entrance; inside it is cool and damp.",
+    "yasli": "engel_var",
+    "tekerlekli_sandalye": "engel_var",
+    "kucuk_cocuk": false,
+    "evcil_hayvan": true,
+    "etiket_notu": "Uzun merdiven açıkça yazıyor."
+  },
+  {
+    "id": 13,
+    "isim": "İstanbul Modern",
+    "kategori": "museum",
+    "aciklama": "Modern and contemporary Turkish art in a building designed by Renzo Piano. Has elevators, fully accessible, and a restaurant with a waterfront terrace.",
+    "yasli": "engel_yok",
+    "tekerlekli_sandalye": "engel_yok",
+    "kucuk_cocuk": false,
+    "evcil_hayvan": true,
+    "etiket_notu": "'Tamamen erişilebilir' açıkça yazıyor. Müze olduğu için evcil hayvan engel."
+  },
+  {
+    "id": 19,
+    "isim": "Kız Kulesi",
+    "kategori": "viewpoint",
+    "aciklama": "Legendary tower on a small islet in the Bosphorus, reached by boat. The sunset and city views are very romantic. There are steps at the pier and on the boat.",
+    "yasli": "engel_var",
+    "tekerlekli_sandalye": "engel_var",
+    "kucuk_cocuk": false,
+    "evcil_hayvan": true,
+    "etiket_notu": "Basamaklar açıkça yazıyor. Evcil hayvan için tekneyle ulaşılan kapalı kule sağduyuyla engel sayıldı."
+  },
+  {
+    "id": 30,
+    "isim": "Belgrad Ormanı",
+    "kategori": "nature",
+    "aciklama": "The city's green lung; 6-8 km walking and running trails around the reservoirs, cycling, picnics. Dirt paths, hard to reach by public transport.",
+    "yasli": "engel_var",
+    "tekerlekli_sandalye": "engel_var",
+    "kucuk_cocuk": false,
+    "evcil_hayvan": false,
+    "etiket_notu": "ZOR VAKA: Tekerlekli sandalye için toprak yollar net bir engel. Yaşlı için uzun parkur, toprak yol ve zor ulaşım birlikte engel sayıldı; parkurun kısa bir kısmı yürünebileceği için bilgi_yok da savunulabilir."
+  },
+  {
+    "id": 35,
+    "isim": "Büyükada",
+    "kategori": "island",
+    "aciklama": "The largest island with no motor vehicles: mansions, cycling, electric vehicle tours, a steep walk up to Aya Yorgi hill, fish restaurants. 1.5 hours by ferry.",
+    "yasli": "engel_var",
+    "tekerlekli_sandalye": "engel_var",
+    "kucuk_cocuk": false,
+    "evcil_hayvan": false,
+    "etiket_notu": "ZOR VAKA: Dik yürüyüş (engel) ve elektrikli araç turu (alternatif) birlikte yazıyor; kural gereği engel_var. Oysa dik yürüyüş isteğe bağlı bir aktivite."
+  },
+  {
+    "id": 42,
+    "isim": "İstiklal Caddesi",
+    "kategori": "neighborhood walk",
+    "aciklama": "1.4 km pedestrian street from Taksim to Tünel; nostalgic tram, arcades, street musicians. Very crowded day and night.",
+    "yasli": "bilgi_yok",
+    "tekerlekli_sandalye": "bilgi_yok",
+    "kucuk_cocuk": false,
+    "evcil_hayvan": false,
+    "etiket_notu": "Kalabalık fiziksel bir engel değil; zemin hakkında bilgi yok."
+  },
+  {
+    "id": 44,
+    "isim": "Balat ve Fener Sokakları",
+    "kategori": "neighborhood walk",
+    "aciklama": "Historic Greek and Jewish neighborhood with colorful houses, antique shops and cafes. Very popular for photos; steep slopes and cobblestone streets.",
+    "yasli": "engel_var",
+    "tekerlekli_sandalye": "engel_var",
+    "kucuk_cocuk": true,
+    "evcil_hayvan": false,
+    "etiket_notu": "ZOR VAKA (çocuk): Dik yokuş ve arnavut kaldırımı bebek arabasıyla gezmeyi ciddi şekilde zorlaştırır; engel sayıldı."
+  },
+  {
+    "id": 47,
+    "isim": "Zorlu Center",
+    "kategori": "shopping",
+    "aciklama": "Modern mall with luxury stores, a performing arts center and restaurants. Fully accessible, with baby rooms and parking.",
+    "yasli": "engel_yok",
+    "tekerlekli_sandalye": "engel_yok",
+    "kucuk_cocuk": false,
+    "evcil_hayvan": true,
+    "etiket_notu": "ZOR VAKA (evcil hayvan): Açıklamada evcil hayvan bilgisi yok; kapalı AVM sağduyuyla engel sayıldı. Gerçekte bazı AVM'ler evcil hayvan kabul ediyor."
+  },
+  {
+    "id": 52,
+    "isim": "Pandeli",
+    "kategori": "restaurant",
+    "aciklama": "Historic Ottoman restaurant with turquoise tiles above the entrance of the Spice Bazaar. Famous for its eggplant börek. Reached by a narrow, steep staircase.",
+    "yasli": "engel_var",
+    "tekerlekli_sandalye": "engel_var",
+    "kucuk_cocuk": true,
+    "evcil_hayvan": true,
+    "etiket_notu": "ZOR VAKA (çocuk): Dar ve dik merdiven bebek arabasıyla çıkmayı ciddi şekilde zorlaştırır; Balat ile tutarlı olarak engel sayıldı."
+  },
+  {
+    "id": 68,
+    "isim": "Kronotrop",
+    "kategori": "cafe",
+    "aciklama": "Specialty coffee roaster; filter coffee and espresso. Many people work on laptops or come alone; dogs are welcome.",
+    "yasli": "bilgi_yok",
+    "tekerlekli_sandalye": "bilgi_yok",
+    "kucuk_cocuk": false,
+    "evcil_hayvan": false,
+    "etiket_notu": "Köpeklerin kabul edildiği açıkça yazıyor; erişilebilirlik bilgisi yok."
+  },
+  {
+    "id": 83,
+    "isim": "Kadife Sokak (Barlar Sokağı)",
+    "kategori": "nightlife",
+    "aciklama": "Street full of affordable bars, the meeting point of students and young people. Crowded until late at night, music and chatting in the street.",
+    "yasli": "bilgi_yok",
+    "tekerlekli_sandalye": "bilgi_yok",
+    "kucuk_cocuk": true,
+    "evcil_hayvan": false,
+    "etiket_notu": "Gece hayatı ve barlar küçük çocuk için uygun değil. Fiziksel engel bilgisi yok."
+  },
+  {
+    "id": 86,
+    "isim": "Çemberlitaş Hamamı",
+    "kategori": "hammam",
+    "aciklama": "Historic hammam built by Mimar Sinan in 1584; scrub and foam massage. Separate sections for women and men; the floor is slippery and hot.",
+    "yasli": "engel_var",
+    "tekerlekli_sandalye": "engel_var",
+    "kucuk_cocuk": true,
+    "evcil_hayvan": true,
+    "etiket_notu": "ZOR VAKA (tekerlekli sandalye): Merdiven değil ama kaygan ve ıslak zemin somut bir fiziksel risk olduğu için engel_var seçildi."
+  },
+  {
+    "id": 90,
+    "isim": "Şehir Hatları Boğaz Turu",
+    "kategori": "boat tour",
+    "aciklama": "Long Bosphorus tour to Anadolu Kavağı by municipal ferry (1.5 hours one way). Affordable, open deck, seagulls. Boarding via a ramp.",
+    "yasli": "engel_yok",
+    "tekerlekli_sandalye": "engel_yok",
+    "kucuk_cocuk": false,
+    "evcil_hayvan": false,
+    "etiket_notu": "ZOR VAKA (evcil hayvan): Açıklamada bilgi yok; açık güverteli bir vapurun ciddi bir engel olmadığı varsayıldı."
+  },
+  {
+    "id": 93,
+    "isim": "KidZania İstanbul",
+    "kategori": "activity",
+    "aciklama": "Mini city where children aged 4-14 try out jobs such as pilot, doctor or firefighter through role play. Inside a mall, indoor and safe.",
+    "yasli": "bilgi_yok",
+    "tekerlekli_sandalye": "bilgi_yok",
+    "kucuk_cocuk": false,
+    "evcil_hayvan": true,
+    "etiket_notu": "ZOR VAKA: 'AVM içinde' erişilebilirliği ima ediyor ama açıkça yazmıyor; bilgi_yok seçildi. Küçük çocuk için 4 yaş altı katılamaz ama 4-6 yaş katılabildiği için engel sayılmadı."
+  }
+]

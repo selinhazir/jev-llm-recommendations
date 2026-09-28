@@ -2,7 +2,9 @@
 
 A small, vendor-neutral demo: pre-label a venue catalog once with **Jev** ([TypeSafe](https://typesafe.ai)'s System One model), then use those labels to filter and rank candidates before ever calling an LLM for trip planning. The question it answers: *does a cheap, deterministic pre-filter actually help once you put a real LLM behind it?*
 
-**[→ Read the results write-up](https://claude.ai/artifact/QFvwWyDM1bYW4q5LycKhf5)** — vendor comparison (ChatGPT, Claude), accuracy, data-gap and scale numbers, as a shareable page. (Private by default; ask the owner for access.)
+**[→ Read the presentation (PDF)](docs/presentation.pdf)** — 17 slides: the problem, the design, vendor comparison (ChatGPT, Claude), accuracy, data gaps, scale, limitations and next steps.
+
+An interactive version of the headline numbers is also available as a [live page](https://claude.ai/artifact/QFvwWyDM1bYW4q5LycKhf5) (private by default; ask the owner for access).
 
 ## The idea
 

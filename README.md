@@ -37,34 +37,37 @@ None of this includes prompt caching, and the vendor comparison is a small sampl
 ```
 data/                    sample catalog, labels, and every experiment's results (JSON)
 prompts/                 generated prompt files for the vendor comparison (A/B/C per profile)
-etiketle.py              labels every venue with Jev (TypeSafe API)
-filtrele.py              the constraint filter — the one place thresholds and rules live
-dogruluk.py              accuracy check against reference labels
-ozet.py                  labeling summary (excluded/flagged counts, data gaps, cost)
-rota.py                  builds one route with a local LLM (Ollama) from a filtered shortlist
-karsilastir.py           A/B: full list vs. Jev-filtered, run against the local model
-sira_testi.py            shuffled-list robustness test + catalog-scale projection
-prompt_paketi.py         exports the A/B/C prompts used for the vendor comparison
-kaydet.py                records a vendor's pasted response (service, model, timing, answer)
-vendor_rapor.py          scores recorded vendor responses: coverage, violations, relevance, cost
-sunum_ozeti.py           pulls every number above into one JSON + console summary
+docs/                    the presentation (PDF)
+label.py                 labels every venue with Jev (TypeSafe API)
+constraints.py           the constraint filter — the one place thresholds and rules live
+accuracy.py              accuracy check against reference labels
+labeling_summary.py      labeling summary (excluded/flagged counts, data gaps, cost)
+route.py                 builds one route with a local LLM (Ollama) from a filtered shortlist
+compare.py               A/B: full list vs. Jev-filtered, run against the local model
+shuffle_test.py          shuffled-list robustness test + catalog-scale projection
+prompt_package.py        exports the A/B/C prompts used for the vendor comparison
+record.py                records a vendor's pasted response (service, model, timing, answer)
+vendor_report.py         scores recorded vendor responses: coverage, violations, relevance, cost
+presentation_summary.py  pulls every number above into one JSON + console summary
 app.py                   Streamlit UI: build a route, inspect why venues were excluded/flagged
 backup_tr/                pre-translation snapshot of the code and data (see note below)
 ```
+
+Data field names inside `data/*.json` (e.g. `isim`, `semt`, `aciklama`) and internal variable names in the code stay in Turkish — only these top-level module names were translated. Every field sent to Jev or an LLM is translated to English first (see `label.py`).
 
 ## Setup
 
 Requires Python 3.9+, a [TypeSafe](https://typesafe.ai) API key, and — for the local-model scripts — [Ollama](https://ollama.com) with `qwen2.5:3b` pulled.
 
 ```bash
-# TypeSafe API key, for etiketle.py only
+# TypeSafe API key, for label.py only
 echo "TYPESAFE_API_KEY=..." > .env
 
 # Streamlit app dependency (separate venv; the rest of the scripts use plain stdlib + urllib)
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
 
-# local model, for rota.py / karsilastir.py / sira_testi.py / prompt_paketi.py
+# local model, for route.py / compare.py / shuffle_test.py / prompt_package.py
 ollama pull qwen2.5:3b
 ```
 
@@ -74,23 +77,23 @@ Most of this is already computed and checked into `data/`; you don't need to re-
 
 ```bash
 # 1. Label the catalog with Jev (cheap; only re-labels what changed)
-python3 etiketle.py hepsi
+python3 label.py hepsi
 
 # 2. Sanity-check labeling
-python3 ozet.py            # coverage, exclusions, data gaps, cost
-python3 dogruluk.py        # accuracy against data/altin_etiketler.json
+python3 labeling_summary.py  # coverage, exclusions, data gaps, cost
+python3 accuracy.py          # accuracy against data/altin_etiketler.json
 
 # 3. Local-model experiments (needs Ollama running)
-python3 karsilastir.py     # full list vs. filtered, 5 profiles
-python3 sira_testi.py      # shuffled-list robustness + scale projection
+python3 compare.py           # full list vs. filtered, 5 profiles
+python3 shuffle_test.py      # shuffled-list robustness + scale projection
 
 # 4. Vendor comparison (manual — paste responses from other providers)
-python3 prompt_paketi.py   # writes prompts/*.txt + manifest.json
-python3 kaydet.py          # record a pasted vendor response
-python3 vendor_rapor.py    # score it: coverage, violations, relevance, cost
+python3 prompt_package.py    # writes prompts/*.txt + manifest.json
+python3 record.py            # record a pasted vendor response
+python3 vendor_report.py     # score it: coverage, violations, relevance, cost
 
 # roll every number above into data/sunum_ozeti.json + a console summary
-python3 sunum_ozeti.py
+python3 presentation_summary.py
 
 # interactive UI
 .venv/bin/streamlit run app.py
@@ -99,6 +102,6 @@ python3 sunum_ozeti.py
 ## Notes on the data
 
 - The catalog is illustrative sample data (`data/istanbul_mekanlar.json`): venue names are real, but descriptions, hours and price levels are approximate and shouldn't be treated as current information.
-- Reference labels for the accuracy check (`data/altin_etiketler.json`) were produced by an LLM (Claude) reading only the venue descriptions, without seeing Jev's output — so `dogruluk.py` measures agreement between two independent methods, not ground truth verified by a person.
+- Reference labels for the accuracy check (`data/altin_etiketler.json`) were produced by an LLM (Claude) reading only the venue descriptions, without seeing Jev's output — so `accuracy.py` measures agreement between two independent methods, not ground truth verified by a person.
 - `backup_tr/` is a pre-translation snapshot of the project (Turkish UI copy, an earlier working name in some files/comments). It's kept for reference; decide before publishing whether it belongs in a public or shared repo.
 - All costs are approximate: no prompt caching, and input tokens for vendor comparisons are counted with the Qwen tokenizer (each vendor's own tokenizer differs slightly).

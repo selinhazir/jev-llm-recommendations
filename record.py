@@ -2,7 +2,7 @@
 Başka servislerde (ör. farklı LLM sağlayıcıları) elle çalıştırılan promptların
 sonuçlarını terminalden girip data/vendor_results.json dosyasına kaydeder.
 
-    python3 kaydet.py
+    python3 record.py
 
 Sorulanlar: servis adı, model adı, profil, prompt tipi, ölçtüğün süre (saniye),
 modelin cevabı. Cevap çok satırlı olabilir: yapıştır, sonra BOŞ bir satırda Enter'a bas.
@@ -12,8 +12,8 @@ boş satır olmaz; olursa boş satırları silip yapıştır.)
 
 import datetime
 
-from etiketle import json_oku, json_yaz
-from prompt_paketi import PAKET_PROFILLERI
+from label import json_oku, json_yaz
+from prompt_package import PAKET_PROFILLERI
 
 SONUC_DOSYASI = "data/vendor_results.json"
 PROMPT_TIPLERI = ["A_full_list", "B_jev_filtered", "C_no_list"]

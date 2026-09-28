@@ -1,7 +1,7 @@
 """
 Etiketleme sonuçlarının özeti (sunum için).
 
-    python3 ozet.py
+    python3 labeling_summary.py
 
 Yazdırılanlar:
 1. Her kullanıcı türü için kaç mekân kaldı, kaçı elendi
@@ -9,8 +9,8 @@ Yazdırılanlar:
 3. Toplam token, maliyet ve çağrı başına ortalama süre
 """
 
-from etiketle import DOLAR_PER_MILYON_INPUT_TOKEN, ETIKET_DOSYASI, MEKAN_DOSYASI, TUR_DOSYASI, json_oku
-from filtrele import CHOICE_GUVEN_ESIGI, ELENIR, ERISILEBILIRLIK_TURLERI, UYARI, filtre_karari
+from label import DOLAR_PER_MILYON_INPUT_TOKEN, ETIKET_DOSYASI, MEKAN_DOSYASI, TUR_DOSYASI, json_oku
+from constraints import CHOICE_GUVEN_ESIGI, ELENIR, ERISILEBILIRLIK_TURLERI, UYARI, filtre_karari
 
 
 def main():
@@ -24,7 +24,7 @@ def main():
         print(f"UYARI: {len(mekanlar) - len(etiketli)} mekânın etiketi yok, özete dahil edilmedi.\n")
     toplam = len(etiketli)
     if toplam == 0:
-        print("Henüz hiçbir mekân etiketlenmemiş. Önce: python3 etiketle.py")
+        print("Henüz hiçbir mekân etiketlenmemiş. Önce: python3 label.py")
         return
 
     # --- 1) Kullanıcı türü başına kalan / elenen ---

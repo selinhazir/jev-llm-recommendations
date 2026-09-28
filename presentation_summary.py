@@ -8,7 +8,7 @@ Sunum için tek özet: tüm güncel (İngilizce) rakamları kaynak dosyalardan h
 4. Veri eksikliği oranları (erişilebilirlik bilgisi yok)
 5. Yerel karşılaştırma ve sıra testi (qwen2.5:3b), ölçek hesabı
 
-    python3 sunum_ozeti.py
+    python3 presentation_summary.py
 
 Çıktı: data/sunum_ozeti.json (+ terminale İngilizce özet)
 """
@@ -16,14 +16,14 @@ Sunum için tek özet: tüm güncel (İngilizce) rakamları kaynak dosyalardan h
 import contextlib
 import io
 
-import dogruluk
-import vendor_rapor
-from etiketle import DOLAR_PER_MILYON_INPUT_TOKEN, ETIKET_DOSYASI, MEKAN_DOSYASI, TUR_DOSYASI, json_oku, json_yaz
-from filtrele import ERISILEBILIRLIK_TURLERI
-from karsilastir import AYDAKI_GUN, GUNLUK_ISTEK
-from karsilastir import SONUC_DOSYASI as AB_SONUC_DOSYASI
-from sira_testi import CONTEXT_PENCERESI, OLCEK_MEKAN_SAYISI
-from sira_testi import SONUC_DOSYASI as SIRA_SONUC_DOSYASI
+import accuracy
+import vendor_report
+from label import DOLAR_PER_MILYON_INPUT_TOKEN, ETIKET_DOSYASI, MEKAN_DOSYASI, TUR_DOSYASI, json_oku, json_yaz
+from constraints import ERISILEBILIRLIK_TURLERI
+from compare import AYDAKI_GUN, GUNLUK_ISTEK
+from compare import SONUC_DOSYASI as AB_SONUC_DOSYASI
+from shuffle_test import CONTEXT_PENCERESI, OLCEK_MEKAN_SAYISI
+from shuffle_test import SONUC_DOSYASI as SIRA_SONUC_DOSYASI
 
 OZET_DOSYASI = "data/sunum_ozeti.json"
 
@@ -34,9 +34,9 @@ def ortalama(degerler):
 
 
 def servis_ozeti():
-    """vendor_rapor.py'nin ölçümlerinden servis başına A/B/C özetini çıkarır."""
+    """vendor_report.py'nin ölçümlerinden servis başına A/B/C özetini çıkarır."""
     with contextlib.redirect_stdout(io.StringIO()):  # ayrıntılı raporu ekrana basma
-        olcumler = vendor_rapor.main() or []
+        olcumler = vendor_report.main() or []
     servisler = {}
     for o in olcumler:
         servisler.setdefault(f"{o['servis']} | {o['model']}", []).append(o)
@@ -95,21 +95,21 @@ def jev_ozeti():
 
 
 def dogruluk_ozeti():
-    """dogruluk.py ile aynı mantık: her kısıt için doğru / güvenli hata / tehlikeli hata."""
-    altin = json_oku(dogruluk.ALTIN_DOSYASI)
+    """accuracy.py ile aynı mantık: her kısıt için doğru / güvenli hata / tehlikeli hata."""
+    altin = json_oku(accuracy.ALTIN_DOSYASI)
     etiketler = json_oku(ETIKET_DOSYASI)
     tur_adlari = {t["id"]: t["ad"] for t in json_oku(TUR_DOSYASI)}
     sonuc = {}
-    for alan, (tur_id, cesit) in dogruluk.ALANLAR.items():
+    for alan, (tur_id, cesit) in accuracy.ALANLAR.items():
         dogru, guvenli, tehlikeli = 0, 0, 0
         for kayit in altin:
             if kayit[alan] is None:
                 continue
             etiket = etiketler[str(kayit["id"])]
-            jev = (dogruluk.jev_choice_karari if cesit == "choice" else dogruluk.jev_noul_karari)(etiket, tur_id)[0]
+            jev = (accuracy.jev_choice_karari if cesit == "choice" else accuracy.jev_noul_karari)(etiket, tur_id)[0]
             if jev == kayit[alan]:
                 dogru += 1
-            elif dogruluk.hata_yonu(cesit, kayit[alan], jev) == "güvenli":
+            elif accuracy.hata_yonu(cesit, kayit[alan], jev) == "güvenli":
                 guvenli += 1
             else:
                 tehlikeli += 1

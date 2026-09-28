@@ -3,16 +3,16 @@ Jev (TypeSafe) ile mekânları kullanıcı türlerine göre etiketler.
 
 - Her mekân için TEK bir API çağrısı yapılır; içinde her kullanıcı türü için bir
   "noul" (evet/hayır olasılığı) sorusu bulunur. Jev bunları paralel cevaplar.
-- Kodla filtrelenen türler (ör. bütçe, bkz. filtrele.py) Jev'e sorulmaz.
+- Kodla filtrelenen türler (ör. bütçe, bkz. constraints.py) Jev'e sorulmaz.
 - Sonuçlar data/etiketler.json dosyasına kaydedilir.
 - Cache: Jev'e gidecek girdinin (sorular + mekân bilgisi) hash'i saklanır. Girdi
   değişmediyse mekân tekrar etiketlenmez; değiştiyse otomatik olarak yeniden etiketlenir.
 
 Kullanım:
-    python3 etiketle.py             -> en fazla 3 yeni mekân etiketler (test için)
-    python3 etiketle.py 10          -> en fazla 10 yeni mekân etiketler
-    python3 etiketle.py hepsi       -> etiketlenmemiş tüm mekânları etiketler
-    python3 etiketle.py --id 12,51  -> sadece bu id'lere sahip mekânları etiketler
+    python3 label.py             -> en fazla 3 yeni mekân etiketler (test için)
+    python3 label.py 10          -> en fazla 10 yeni mekân etiketler
+    python3 label.py hepsi       -> etiketlenmemiş tüm mekânları etiketler
+    python3 label.py --id 12,51  -> sadece bu id'lere sahip mekânları etiketler
 
 API anahtarı TYPESAFE_API_KEY ortam değişkeninden okunur.
 """
@@ -25,7 +25,7 @@ import time
 import urllib.error
 import urllib.request
 
-from filtrele import ERISILEBILIRLIK_TURLERI, KOD_KURALLARI, kurallari_kontrol_et
+from constraints import ERISILEBILIRLIK_TURLERI, KOD_KURALLARI, kurallari_kontrol_et
 
 # --- Ayarlar ---
 API_URL = "https://api.typesafe.ai/v1/systemone"
@@ -45,7 +45,7 @@ GONDERILECEK_ALANLAR = {
 }
 
 # Erişilebilirlik choice sorusunun seçenekleri. Seçenek adları modele gönderildiği
-# için İngilizce; kod içinde (filtrele.py, dogruluk.py) Türkçe değerlerle çalışıyoruz.
+# için İngilizce; kod içinde (constraints.py, accuracy.py) Türkçe değerlerle çalışıyoruz.
 ERISIM_SECENEKLERI = {
     "barrier_present": "engel_var",
     "no_barrier": "engel_yok",
@@ -70,7 +70,7 @@ def json_yaz(dosya_yolu, veri):
 def kisit_sorusu(tur):
     """Kısıt türü için soru: mekânda bu kişi için ciddi bir engel var mı?
 
-    Olasılık filtrele.py'deki eşiği geçerse mekân bu kullanıcıdan elenir.
+    Olasılık constraints.py'deki eşiği geçerse mekân bu kullanıcıdan elenir.
     """
     return {
         "type": "noul",
@@ -250,7 +250,7 @@ def main():
 
         # Cevapları türün çeşidine göre ayrı sözlüklere ayır:
         #   erisim_cevaplari     : choice seçimi + confidence (yaşlı, tekerlekli sandalye)
-        #   engel_olasiliklari   : noul, filtrele.py'deki eşiği geçerse mekân elenir
+        #   engel_olasiliklari   : noul, constraints.py'deki eşiği geçerse mekân elenir
         #   ilgi_olasiliklari    : sıralama puanı, yüksekse daha üstte
         #   ilgi_alt_olasiliklari: alt soruların ayrı puanları (ortalaması ilgi puanıdır)
         cevaplar = cevap["answers"]

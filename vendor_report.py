@@ -1,26 +1,26 @@
 """
 Firmalar arası karşılaştırma raporu (çıktı İngilizce, sunum için).
 
-data/vendor_results.json'daki (kaydet.py ile girilen) her cevap için:
+data/vendor_results.json'daki (record.py ile girilen) her cevap için:
 - A ve B: dönen id'ler gönderilen listede mi? Kısıt ihlalleri (Jev etiketlerine göre,
   açıklamalarıyla), uyarılı mekânlar, alaka puanı.
 - C: önerilen mekân isimlerinden kaçı veri setimizde var? (takma adlarla eşleştirilir)
   Eşleşenler için ihlal ve alaka da hesaplanır.
 - Maliyet: FIYATLAR sözlüğündeki servis fiyatlarıyla (yeni servis eklenince oraya fiyat ekle).
 
-    python3 vendor_rapor.py
+    python3 vendor_report.py
 """
 
 import json
 import re
 import unicodedata
 
-from etiketle import ETIKET_DOSYASI, MEKAN_DOSYASI, TUR_DOSYASI, json_oku
-from karsilastir import AYDAKI_GUN, GUNLUK_ISTEK, rotayi_denetle
-from kaydet import SONUC_DOSYASI
-from prompt_paketi import MANIFEST_DOSYASI
-from rota import PROFILLER
-from sira_testi import alaka
+from label import ETIKET_DOSYASI, MEKAN_DOSYASI, TUR_DOSYASI, json_oku
+from compare import AYDAKI_GUN, GUNLUK_ISTEK, rotayi_denetle
+from record import SONUC_DOSYASI
+from prompt_package import MANIFEST_DOSYASI
+from route import PROFILLER
+from shuffle_test import alaka
 
 TAKMA_AD_DOSYASI = "data/mekan_takma_adlari.json"
 
@@ -105,7 +105,7 @@ def id_listesi(route):
 
 
 def ingilizce_neden(neden, tur_adlari):
-    """filtrele.py'nin Türkçe nedenini İngilizce rapora çevirir.
+    """constraints.py'nin Türkçe nedenini İngilizce rapora çevirir.
     ör. 'yasli: açıklamada engel var' -> 'Elderly traveler: barrier in description'"""
     tur_id, _, metin = neden.partition(": ")
     metin = (metin.replace("açıklamada engel var", "barrier in description")
@@ -154,10 +154,10 @@ def main():
     tur_adlari = {t["id"]: t["ad"] for t in json_oku(TUR_DOSYASI)}
 
     if not kayitlar:
-        print(f"No results yet. Add some with: python3 kaydet.py  ({SONUC_DOSYASI})")
+        print(f"No results yet. Add some with: python3 record.py  ({SONUC_DOSYASI})")
         return
     if not manifest:
-        print(f"{MANIFEST_DOSYASI} not found. Run: python3 prompt_paketi.py")
+        print(f"{MANIFEST_DOSYASI} not found. Run: python3 prompt_package.py")
         return
 
     tablo = []
@@ -212,7 +212,7 @@ def main():
             print(f"    ⚠️  Route has {len(route)} venues (3-4 requested)")
 
         # Maliyet
-        # Token sayısı henüz ölçülmediyse (prompt_paketi.py --tokensiz) karakterden tahmin et
+        # Token sayısı henüz ölçülmediyse (prompt_package.py --tokensiz) karakterden tahmin et
         input_token = bilgi["token_qwen"] or round(bilgi["karakter"] / KARAKTER_PER_TOKEN)
         output_token = round(len(kayit["cevap"]) / KARAKTER_PER_TOKEN)
         fiyat_kaydi = FIYAT_TABLOSU.get(anahtar_normalize(kayit["servis"], kayit["model"]))
@@ -284,8 +284,8 @@ def main():
     print("  - Costs are computed without prompt caching; cost includes input + estimated output tokens.")
     print("  - Times are measured manually by the user (wall-clock, including network).")
     if eksik_fiyatlar:
-        print("\n  Prices missing in FIYATLAR (vendor_rapor.py) for: " + ", ".join(sorted(eksik_fiyatlar)))
-    return olcumler  # sunum_ozeti.py kullanır
+        print("\n  Prices missing in FIYATLAR (vendor_report.py) for: " + ", ".join(sorted(eksik_fiyatlar)))
+    return olcumler  # presentation_summary.py kullanır
 
 
 if __name__ == "__main__":

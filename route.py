@@ -3,14 +3,14 @@ Bir kullanıcı profili için Jev filtresiyle mekân listesi hazırlar ve yerel 
 (Ollama, qwen2.5:3b) 3-4 mekânlık bir rota ister.
 
 Adımlar:
-1. filtrele.py ile profilin kısıtlarına göre elenen mekânları çıkar
+1. constraints.py ile profilin kısıtlarına göre elenen mekânları çıkar
 2. Kalanları profilin ilgi puanlarına göre sırala, ilk 10'u al
 3. Bu 10 mekânı LLM'e gönder, JSON rota iste: {"route": [id'ler], "explanation": "..."}
 4. Dönen id'ler gönderilen listede mi? Uydurma id varsa işaretle.
 
 Kullanım:
-    python3 rota.py                 -> varsayılan profil (yasli_kultur)
-    python3 rota.py yasli_kultur    -> belirli bir profil
+    python3 route.py                 -> varsayılan profil (yasli_kultur)
+    python3 route.py yasli_kultur    -> belirli bir profil
 
 Ollama'nın çalışıyor olması gerekir (http://localhost:11434).
 """
@@ -20,8 +20,8 @@ import sys
 import time
 import urllib.request
 
-from etiketle import ETIKET_DOSYASI, MEKAN_DOSYASI, json_oku
-from filtrele import ELENIR, UYARI, filtre_karari
+from label import ETIKET_DOSYASI, MEKAN_DOSYASI, json_oku
+from constraints import ELENIR, UYARI, filtre_karari
 
 OLLAMA_URL = "http://localhost:11434/api/chat"
 LLM_MODELI = "qwen2.5:3b"
@@ -33,7 +33,7 @@ LLM_ALANLARI = {"id": "id", "isim": "name", "kategori": "category", "semt": "dis
 UYARI_NOTU = "accessibility not verified"
 
 # Kullanıcı profilleri.
-#   kisitlar: filtrele.py'deki kısıt türleri (sert filtre)
+#   kisitlar: constraints.py'deki kısıt türleri (sert filtre)
 #   ilgiler : sıralama için kullanılan ilgi türleri (puanların ortalaması alınır)
 #   istek   : kullanıcının kendi ağzından isteği; LLM'in gördüğü tek profil bilgisi budur
 PROFILLER = {

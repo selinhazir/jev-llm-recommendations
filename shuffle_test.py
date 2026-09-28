@@ -11,17 +11,17 @@ Sıra testi, alaka ölçümü ve ölçek hesabı.
 3. Ölçek: mekân başına düşen token sayısı, 300.000 mekâna ölçeklenir ve
    1 milyon token'lık context penceresiyle karşılaştırılır.
 
-    python3 sira_testi.py
+    python3 shuffle_test.py
 
 Sonuçlar data/sira_testi_sonuclari.json dosyasına kaydedilir.
 """
 
 import random
 
-from etiketle import ETIKET_DOSYASI, MEKAN_DOSYASI, json_oku, json_yaz
-from karsilastir import SONUC_DOSYASI as AB_SONUC_DOSYASI
-from karsilastir import rotayi_denetle
-from rota import LLM_MODELI, PROFILLER, llm_icin_mekan, llm_rota_iste
+from label import ETIKET_DOSYASI, MEKAN_DOSYASI, json_oku, json_yaz
+from compare import SONUC_DOSYASI as AB_SONUC_DOSYASI
+from compare import rotayi_denetle
+from route import LLM_MODELI, PROFILLER, llm_icin_mekan, llm_rota_iste
 
 SONUC_DOSYASI = "data/sira_testi_sonuclari.json"
 SEEDLER = [11, 22, 33]  # Karıştırma için rastgelelik tohumları (tekrar üretilebilirlik)

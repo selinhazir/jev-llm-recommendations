@@ -17,24 +17,29 @@ veri seti "sample venue catalog (Istanbul)" olarak tanımlanır. Demo şunu gös
 - `data/kullanici_turleri.json` — 12 kullanıcı türü (id, tip, ad, aciklama).
   `tip: "kisit"` → sert filtre ("ciddi engel var mı?", yüksekse elenir);
   `tip: "ilgi"` → sıralama puanı ("keyif alır mı?")
-- `etiketle.py` — Jev ile etiketleme (mekân başına 1 çağrı, 12 soru; sorular İngilizce).
+- `label.py` — Jev ile etiketleme (mekân başına 1 çağrı, 12 soru; sorular İngilizce).
   Cache, Jev'e giden girdinin hash'iyle çalışır: soru/açıklama değişince otomatik yeniden etiketler.
 - `data/etiketler.json` — Jev sonuçları (erisim_cevaplari, engel_olasiliklari, ilgi_olasiliklari,
   token sayıları, süre)
-- `filtrele.py` — kısıt kuralları tek yerde: kod kuralları (bütçe), erişilebilirlik choice'u
+- `constraints.py` — kısıt kuralları tek yerde: kod kuralları (bütçe), erişilebilirlik choice'u
   (yaşlı, tekerlekli sandalye), noul eşikleri (evcil hayvan, küçük çocuk)
-- `ozet.py` — sunum özeti: tür başına kalan/elenen, veri eksikliği raporu, token/maliyet/süre
+- `labeling_summary.py` — sunum özeti: tür başına kalan/elenen, veri eksikliği raporu, token/maliyet/süre
 
-- `rota.py` / `karsilastir.py` / `sira_testi.py` — yerel LLM (Ollama qwen2.5:3b) ile rota ve
+- `route.py` / `compare.py` / `shuffle_test.py` — yerel LLM (Ollama qwen2.5:3b) ile rota ve
   filtresiz/filtreli karşılaştırma
 - `app.py` — Streamlit sunum arayüzü (İngilizce): `.venv/bin/streamlit run app.py`
   (Streamlit `.venv` içinde; sistem Python'u 3.9, bkz. requirements.txt)
-- `dogruluk.py` + `data/altin_etiketler.json` — 20 mekânlık referans etiketlerle doğruluk ölçümü (referans etiketler bir LLM (Claude) tarafından, sadece Türkçe açıklamalara bakarak, Jev sonuçlarını görmeden oluşturuldu)
-- Firmalar arası paket: `prompt_paketi.py` (prompts/ klasörüne A/B/C prompt dosyaları + manifest),
-  `kaydet.py` (başka servislerin cevaplarını data/vendor_results.json'a girer),
-  `vendor_rapor.py` (liste kontrolü, ihlal, alaka, maliyet; fiyatlar FIYATLAR sözlüğünde)
-- `sunum_ozeti.py` — sunum için tüm güncel rakamlar tek yerde → `data/sunum_ozeti.json`
-- `backup_tr/` — Türkçe sürümün yedeği (kod, veri, sonuçlar)
+- `accuracy.py` + `data/altin_etiketler.json` — 20 mekânlık referans etiketlerle doğruluk ölçümü (referans etiketler bir LLM (Claude) tarafından, sadece Türkçe açıklamalara bakarak, Jev sonuçlarını görmeden oluşturuldu)
+- Firmalar arası paket: `prompt_package.py` (prompts/ klasörüne A/B/C prompt dosyaları + manifest),
+  `record.py` (başka servislerin cevaplarını data/vendor_results.json'a girer),
+  `vendor_report.py` (liste kontrolü, ihlal, alaka, maliyet; fiyatlar FIYATLAR sözlüğünde)
+- `presentation_summary.py` — sunum için tüm güncel rakamlar tek yerde → `data/sunum_ozeti.json`
+- `docs/presentation.pdf` — 17 sayfalık yönetici sunumu (GitHub README'den link veriliyor)
+- `backup_tr/` — Türkçe sürümün yedeği (kod, veri, sonuçlar); .gitignore'da, repoya girmiyor
+
+Not: Dosya adları (.py) İngilizceye çevrildi (ör. eski `etiketle.py` → `label.py`). Kod içi
+değişken/fonksiyon adları ve JSON veri alan adları (isim, semt, aciklama...) Türkçe kaldı —
+bunlar zaten Jev'e/LLM'e giderken İngilizceye çevriliyor, dışarı hiç sızmıyor.
 
 İlke: Jev yalnızca açıklama metninden karar çıkarmak için kullanılır; sayısal/kategorik
 alanlar (ör. fiyat_seviyesi) kodla filtrelenir.

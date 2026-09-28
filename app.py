@@ -21,15 +21,15 @@ import urllib.error
 import pandas as pd
 import streamlit as st
 
-from etiketle import ERISIM_SECENEKLERI, ETIKET_DOSYASI, MEKAN_DOSYASI, TUR_DOSYASI, json_oku, json_yaz
-from filtrele import CHOICE_GUVEN_ESIGI, ELENIR, UYARI, filtre_karari
+from label import ERISIM_SECENEKLERI, ETIKET_DOSYASI, MEKAN_DOSYASI, TUR_DOSYASI, json_oku, json_yaz
+from constraints import CHOICE_GUVEN_ESIGI, ELENIR, UYARI, filtre_karari
 import json
 
-from karsilastir import AYDAKI_GUN, GUNLUK_ISTEK
-from karsilastir import SONUC_DOSYASI as AB_SONUC_DOSYASI
-from rota import ILK_KAC_MEKAN, LLM_MODELI, PROFILLER, filtrele_ve_sirala, llm_icin_mekan, llm_rota_iste
-from sira_testi import SONUC_DOSYASI as SIRA_SONUC_DOSYASI
-from vendor_rapor import FIYATLAR, KARAKTER_PER_TOKEN
+from compare import AYDAKI_GUN, GUNLUK_ISTEK
+from compare import SONUC_DOSYASI as AB_SONUC_DOSYASI
+from route import ILK_KAC_MEKAN, LLM_MODELI, PROFILLER, filtrele_ve_sirala, llm_icin_mekan, llm_rota_iste
+from shuffle_test import SONUC_DOSYASI as SIRA_SONUC_DOSYASI
+from vendor_report import FIYATLAR, KARAKTER_PER_TOKEN
 
 ROTA_KAYIT_DOSYASI = "data/rota_kayitlari.json"  # Canlı çalıştırılan rotalar buraya kaydedilir
 
@@ -42,7 +42,7 @@ IPUCU_KALIPLARI = [
 IPUCU_REGEX = re.compile("|".join(IPUCU_KALIPLARI), re.IGNORECASE)
 
 # Serbest seçilen türler için LLM'e gidecek istek cümleleri.
-# (Hazır 5 profil için rota.py'deki istek metinleri kullanılır.)
+# (Hazır 5 profil için route.py'deki istek metinleri kullanılır.)
 ISTEK_CUMLELERI = {
     "yasli": "I'm elderly; long walks and stairs tire me out a lot.",
     "tekerlekli_sandalye": "I use a wheelchair.",
@@ -58,14 +58,14 @@ ISTEK_CUMLELERI = {
     "yalniz_gezgin": "I'm traveling alone and like social places where I can meet people.",
 }
 
-# Maliyet: vendor_rapor.py ile aynı fiyat ve aynı output tahmini
+# Maliyet: vendor_report.py ile aynı fiyat ve aynı output tahmini
 MALIYET_MODELI = "Claude | Claude Opus 5.5"
 MALIYET_NOTU = "Claude Opus 5.5 price, input + estimated output, no prompt caching."
 
 
 def istek_maliyeti(rota):
     """Bir rota isteğinin dolar maliyeti: input token + tahmini output token.
-    Output, vendor_rapor.py'deki gibi cevabın uzunluğundan tahmin edilir
+    Output, vendor_report.py'deki gibi cevabın uzunluğundan tahmin edilir
     (cevap = modelin döndürdüğü JSON; ~4 karakter ≈ 1 token)."""
     fiyat = FIYATLAR[MALIYET_MODELI]
     cevap = json.dumps({"route": rota["rota"], "explanation": rota["aciklama"]}, ensure_ascii=False)
@@ -289,10 +289,10 @@ with rota_sekmesi:
 
 # ---------------------------------------------------------------- Karşılaştırma sekmesi
 with karsilastirma_sekmesi:
-    st.info("This tab shows **saved results** (produced by karsilastir.py). The full-list method sends "
+    st.info("This tab shows **saved results** (produced by compare.py). The full-list method sends "
             f"all {len(mekanlar)} venues to the model, so it is not run live in the interface.")
     if not ab_sonuclari:
-        st.warning(f"{AB_SONUC_DOSYASI} not found. Run `python3 karsilastir.py` first.")
+        st.warning(f"{AB_SONUC_DOSYASI} not found. Run `python3 compare.py` first.")
     else:
         def rota_isimleri(ids):
             return ", ".join(mekan_sozlugu.get(i, {}).get("isim", f"?{i}") for i in ids)

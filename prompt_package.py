@@ -5,12 +5,12 @@ Firmalar arası karşılaştırma paketi: 3 profil × 3 prompt tipi = 9 metin do
     B_jev_filtered : Jev ile filtrelenmiş ilk 10 mekân + aynı istek (id'lerle cevap istenir)
     C_no_list      : sadece istek, liste yok (mekân isimleriyle cevap istenir)
 
-Metinler, karsilastir.py'de yerel modele giden metinle birebir aynıdır (aynı fonksiyonlar).
+Metinler, compare.py'de yerel modele giden metinle birebir aynıdır (aynı fonksiyonlar).
 Her dosyanın token sayısı Qwen tokenizer'ıyla (Ollama) sayılır; diğer servislerin
 tokenizer'ları farklıdır, bu yüzden sayılar yaklaşıktır.
 
-    python3 prompt_paketi.py            -> dosyalar + token sayıları (Ollama açık olmalı)
-    python3 prompt_paketi.py --tokensiz -> sadece dosyalar (token sayısı sonra eklenir)
+    python3 prompt_package.py            -> dosyalar + token sayıları (Ollama açık olmalı)
+    python3 prompt_package.py --tokensiz -> sadece dosyalar (token sayısı sonra eklenir)
 
 Çıktılar:
     prompts/<profil>__<tip>.txt
@@ -22,14 +22,14 @@ import os
 import sys
 import urllib.request
 
-from etiketle import ETIKET_DOSYASI, MEKAN_DOSYASI, json_oku, json_yaz
-from rota import (ILK_KAC_MEKAN, LLM_MODELI, PROFILLER, SISTEM_MESAJI, filtrele_ve_sirala,
+from label import ETIKET_DOSYASI, MEKAN_DOSYASI, json_oku, json_yaz
+from route import (ILK_KAC_MEKAN, LLM_MODELI, PROFILLER, SISTEM_MESAJI, filtrele_ve_sirala,
                   kullanici_mesaji_olustur, llm_icin_mekan)
 
 PROMPT_KLASORU = "prompts"
 MANIFEST_DOSYASI = os.path.join(PROMPT_KLASORU, "manifest.json")
 
-# Dosya adı -> rota.py'deki profil
+# Dosya adı -> route.py'deki profil
 PAKET_PROFILLERI = {
     "wheelchair_food": "tekerlekli_gastronomi",
     "small_kids_nature": "kucuk_cocuk_doga",

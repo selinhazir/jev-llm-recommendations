@@ -10,19 +10,19 @@ Her profil ve yöntem için ölçülenler:
 - Uyarılı: seçilen mekân için erişilebilirlik doğrulanmamış (bilgi_yok); ihlal sayılmaz
 - Uydurma id: modele gönderilmemiş bir id
 
-    python3 karsilastir.py
+    python3 compare.py
 
 Sonuçlar data/karsilastirma_sonuclari.json dosyasına da kaydedilir.
 """
 
-from etiketle import ETIKET_DOSYASI, MEKAN_DOSYASI, json_oku, json_yaz
-from filtrele import ELENIR, UYARI, filtre_karari
-from rota import (ILK_KAC_MEKAN, LLM_MODELI, PROFILLER, filtrele_ve_sirala, llm_icin_mekan,
+from label import ETIKET_DOSYASI, MEKAN_DOSYASI, json_oku, json_yaz
+from constraints import ELENIR, UYARI, filtre_karari
+from route import (ILK_KAC_MEKAN, LLM_MODELI, PROFILLER, filtrele_ve_sirala, llm_icin_mekan,
                   llm_rota_iste, uydurma_idleri_bul)
 
 SONUC_DOSYASI = "data/karsilastirma_sonuclari.json"
 
-# Maliyet varsayımları (yaklaşık!). vendor_rapor.py'deki FIYATLAR["Claude | Claude Opus 5.5"]
+# Maliyet varsayımları (yaklaşık!). vendor_report.py'deki FIYATLAR["Claude | Claude Opus 5.5"]
 # ile aynı input fiyatı; burada sadece input token'lar hesaba katılıyor (basitleştirme).
 OPUS_DOLAR_PER_MILYON_INPUT = 4.0  # Claude Opus 5.5, milyon input token başına
 GUNLUK_ISTEK = 10_000

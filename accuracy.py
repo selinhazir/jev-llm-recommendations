@@ -1,7 +1,7 @@
 """
 Jev'in kısıt kararlarını referans (altın) etiketlerle karşılaştırır.
 
-    python3 dogruluk.py
+    python3 accuracy.py
 
 Altın etiketler: data/altin_etiketler.json. Bir LLM (Claude) tarafından, sadece mekân
 açıklamalarına bakarak ve Jev'in sonuçlarını görmeden oluşturuldu.
@@ -16,8 +16,8 @@ Hata yönleri:
 
 import json
 
-from etiketle import ETIKET_DOSYASI, json_oku
-from filtrele import CHOICE_GUVEN_ESIGI, ENGEL_ESIKLERI
+from label import ETIKET_DOSYASI, json_oku
+from constraints import CHOICE_GUVEN_ESIGI, ENGEL_ESIKLERI
 
 ALTIN_DOSYASI = "data/altin_etiketler.json"
 
@@ -39,7 +39,7 @@ ALANLAR = {
 
 def jev_choice_karari(etiket, tur_id):
     """Jev'in etkin erişilebilirlik kararı: confidence düşükse 'bilgi_yok' sayılır
-    (filtrele.py ile aynı mantık)."""
+    (constraints.py ile aynı mantık)."""
     cevap = etiket["erisim_cevaplari"][tur_id]
     if cevap["confidence"] < CHOICE_GUVEN_ESIGI:
         return "bilgi_yok", f"{cevap['secim']}, confidence {cevap['confidence']:.2f} -> bilgi_yok"

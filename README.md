@@ -1,5 +1,9 @@
 # Jev + LLM Recommendations
 
+[![Demo video](https://img.youtube.com/vi/0vjTBBzjK6o/maxresdefault.jpg)](https://youtu.be/0vjTBBzjK6o)
+
+▶ Watch the 2-minute demo
+
 A small, vendor-neutral demo: pre-label a venue catalog once with **Jev** ([TypeSafe](https://typesafe.ai)'s System One model), then use those labels to filter and rank candidates before ever calling an LLM for trip planning. The question it answers: *does a cheap, deterministic pre-filter actually help once you put a real LLM behind it?*
 
 **[→ Read the presentation (PDF)](docs/presentation.pdf)** — 17 slides: the problem, the design, vendor comparison (ChatGPT, Claude), accuracy, data gaps, scale, limitations and next steps.
